@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Artikel dan berita seputar Pratani Creative — tips vendor, dokumen LPJ, kopi lokal Brebes, desain grafis, dan komunitas kreatif." />
+  <meta property="og:title" content="Artikel & Berita — Pratani Creative" />
+  <meta property="og:description" content="Tips vendor, cara urus dokumen LPJ, dunia kopi Brebes, desain, dan cerita di balik Pratani Creative." />
+  <meta property="og:type" content="website" />
+  <title>Artikel & Berita — Pratani Creative</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/pages/artikel.css" />
+</head>
+
+<body>
+
+  <div class="bg-glow-layer" aria-hidden="true"></div>
+
+  <!-- TOPBAR -->
+  <div class="topbar" role="banner">
+    <div class="topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__tag">PT Pratani Kreatif Group</span>
+        <span class="topbar__dot" aria-hidden="true"></span>
+        <span class="topbar__tag">AHU-053343.AH.01.30.Tahun 2025</span>
+      </div>
+      <div class="topbar__right">
+        <a href="https://wa.me/6285172107815" class="topbar__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+          0851-7210-7815
+        </a>
+        <span class="topbar__dot" aria-hidden="true"></span>
+        <a href="https://instagram.com/pt.pratani_creative" class="topbar__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          @pt.pratani_creative
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" aria-label="Navigasi utama">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Pratani Creative — Beranda">
+        <div class="navbar__logo-mark" aria-hidden="true">P</div>
+        <div class="navbar__logo-text">
+          <span class="navbar__logo-name">Pratani</span>
+          <span class="navbar__logo-sub">Creative</span>
+        </div>
+      </a>
+
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html" class="navbar__link">Home</a></li>
+        <li><a href="tentang.html" class="navbar__link">Tentang</a></li>
+        <li class="navbar__dropdown">
+          <a href="brand/kolektiva.html" class="navbar__link navbar__dropdown-toggle">
+            Brand
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="navbar__dropdown-menu" role="menu">
+            <a href="brand/kolektiva.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--kolektiva);" aria-hidden="true"></span>Kolektiva
+            </a>
+            <a href="brand/dikopi.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--dikopi);" aria-hidden="true"></span>Dikopi
+            </a>
+            <a href="brand/imagineer.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--imagineer);" aria-hidden="true"></span>Imagineer
+            </a>
+          </div>
+        </li>
+        <li><a href="portfolio.html" class="navbar__link">Portfolio</a></li>
+        <li><a href="artikel.html" class="navbar__link active">Artikel</a></li>
+        <li><a href="link-penting.html" class="navbar__link">Link</a></li>
+      </ul>
+
+      <a href="kontak.html" class="btn btn-primary btn-sm navbar__cta">
+        Hubungi Kami
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+
+      <button class="navbar__hamburger" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <nav class="navbar__mobile-menu" id="mobile-menu" aria-label="Menu mobile">
+    <a href="index.html" class="navbar__mobile-link">Home</a>
+    <a href="tentang.html" class="navbar__mobile-link">Tentang</a>
+    <a href="brand/kolektiva.html" class="navbar__mobile-link">Brand</a>
+    <a href="portfolio.html" class="navbar__mobile-link">Portfolio</a>
+    <a href="artikel.html" class="navbar__mobile-link active">Artikel</a>
+    <a href="link-penting.html" class="navbar__mobile-link">Link Penting</a>
+    <div style="margin-top: 2rem;">
+      <a href="kontak.html" class="btn btn-primary btn-lg" style="width: 100%; justify-content: center;">Hubungi Kami →</a>
+    </div>
+    <div style="margin-top: auto; padding-top: 2rem; display: flex; flex-direction: column; gap: 0.5rem;">
+      <a href="https://wa.me/6285172107815" class="topbar__link" style="font-size: 0.8rem; color: var(--text-muted);">📱 0851-7210-7815</a>
+      <a href="https://instagram.com/pt.pratani_creative" class="topbar__link" style="font-size: 0.8rem; color: var(--text-muted);">📸 @pt.pratani_creative</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ── Page Hero ── -->
+    <section class="art-hero">
+      <div class="container">
+        <div class="art-hero__inner" data-reveal>
+          <span class="section-eyebrow">Artikel &amp; Berita</span>
+          <h1 class="art-hero__title">
+            Insight seputar<br/>
+            <em>komunitas &amp; kreatif.</em>
+          </h1>
+          <p class="art-hero__desc">
+            Tips vendor, cara urus dokumen LPJ, dunia kopi Brebes,
+            desain grafis, dan cerita di balik Pratani Creative.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Featured Article ── -->
+    <section class="art-featured-section">
+      <div class="container">
+        <a href="#" class="art-featured" data-reveal aria-label="Baca artikel pilihan editor: 5 Dokumen LPJ yang Wajib Kamu Siapkan Sebelum Acara">
+          <div class="art-featured__visual" aria-hidden="true">
+            <div class="art-featured__orb"></div>
+            <span class="art-featured__emoji">📋</span>
+          </div>
+          <div class="art-featured__body">
+            <div class="art-featured__meta">
+              <span class="art-badge-editor">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="10" height="10" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                Pilihan Editor
+              </span>
+              <span class="art-tag art-tag--tips">Tips &amp; Panduan</span>
+            </div>
+            <h2 class="art-featured__title">
+              5 Dokumen LPJ yang Wajib Kamu<br class="art-break"/>Siapkan Sebelum Acara
+            </h2>
+            <p class="art-featured__excerpt">
+              Panitia kampus sering kelabakan urusan administrasi setelah acara selesai.
+              Padahal, kalau dokumen sudah disiapkan dari awal, proses LPJ bisa jauh lebih
+              lancar — dan vendor yang baik harusnya bantu itu dari awal.
+            </p>
+            <div class="art-featured__footer">
+              <div class="art-author">
+                <div class="art-author__avatar" aria-hidden="true">P</div>
+                <div class="art-author__info">
+                  <span class="art-author__name">Tim Pratani</span>
+                  <span class="art-author__date">12 Juni 2025 · 5 menit baca</span>
+                </div>
+              </div>
+              <span class="link-arrow" aria-hidden="true">
+                Baca Selengkapnya
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ── Filter + Articles ── -->
+    <section class="art-list-section section">
+      <div class="container">
+
+        <!-- Filter Bar -->
+        <div class="art-filter" role="tablist" aria-label="Filter artikel berdasarkan kategori" data-reveal>
+          <button class="art-filter__btn active" data-filter="all" role="tab" aria-selected="true">Semua</button>
+          <button class="art-filter__btn" data-filter="pratani" role="tab" aria-selected="false">Pratani</button>
+          <button class="art-filter__btn" data-filter="kolektiva" role="tab" aria-selected="false">Kolektiva</button>
+          <button class="art-filter__btn" data-filter="dikopi" role="tab" aria-selected="false">Dikopi</button>
+          <button class="art-filter__btn" data-filter="imagineer" role="tab" aria-selected="false">Imagineer</button>
+          <button class="art-filter__btn" data-filter="tips" role="tab" aria-selected="false">Tips</button>
+        </div>
+
+        <!-- Articles Grid -->
+        <div class="art-grid" id="art-grid">
+
+          <article class="art-card" data-category="dikopi">
+            <a href="#" class="art-card__link">
+              <div class="art-card__visual art-card__visual--dikopi" aria-hidden="true"><span>☕</span></div>
+              <div class="art-card__body">
+                <div class="art-card__tags"><span class="art-tag art-tag--dikopi">Dikopi</span></div>
+                <h3 class="art-card__title">Mengenal Kopi Single Origin dari Pegunungan Lio, Brebes</h3>
+                <p class="art-card__excerpt">Natural Process di ketinggian 500–1200 MDPL menghasilkan profil rasa fruity banana yang unik. Ini ceritanya.</p>
+                <div class="art-card__footer">
+                  <span class="art-card__date">8 Juni 2025</span>
+                  <span class="art-card__read">4 mnt baca</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="art-card" data-category="kolektiva">
+            <a href="#" class="art-card__link">
+              <div class="art-card__visual art-card__visual--kolektiva" aria-hidden="true"><span>🧵</span></div>
+              <div class="art-card__body">
+                <div class="art-card__tags"><span class="art-tag art-tag--kolektiva">Kolektiva</span></div>
+                <h3 class="art-card__title">PDH Keren tapi Hemat Budget: Panduan Lengkap untuk Panitia</h3>
+                <p class="art-card__excerpt">Bahan, teknik sablon, timeline produksi, dan cara baca spesifikasi — supaya PDH lo sesuai ekspektasi.</p>
+                <div class="art-card__footer">
+                  <span class="art-card__date">2 Juni 2025</span>
+                  <span class="art-card__read">6 mnt baca</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="art-card" data-category="imagineer">
+            <a href="#" class="art-card__link">
+              <div class="art-card__visual art-card__visual--imagineer" aria-hidden="true"><span>✦</span></div>
+              <div class="art-card__body">
+                <div class="art-card__tags"><span class="art-tag art-tag--imagineer">Imagineer</span></div>
+                <h3 class="art-card__title">Panduan Branding Komunitas Kampus dari Nol sampai Konsisten</h3>
+                <p class="art-card__excerpt">Logo, warna, tipografi, dan tone of voice — cara komunitas kamu bisa punya identitas visual yang kuat.</p>
+                <div class="art-card__footer">
+                  <span class="art-card__date">28 Mei 2025</span>
+                  <span class="art-card__read">7 mnt baca</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="art-card" data-category="pratani">
+            <a href="#" class="art-card__link">
+              <div class="art-card__visual art-card__visual--pratani" aria-hidden="true"><span>🏢</span></div>
+              <div class="art-card__body">
+                <div class="art-card__tags"><span class="art-tag art-tag--pratani">Pratani</span></div>
+                <h3 class="art-card__title">Dari Ide ke PT: Cerita 2 Tahun Mendirikan Pratani Creative</h3>
+                <p class="art-card__excerpt">Berawal dari frustrasi sebagai panitia, kini kami jadi vendor yang kami harapkan dulu ada. Ini perjalanannya.</p>
+                <div class="art-card__footer">
+                  <span class="art-card__date">20 Mei 2025</span>
+                  <span class="art-card__read">8 mnt baca</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="art-card" data-category="tips">
+            <a href="#" class="art-card__link">
+              <div class="art-card__visual art-card__visual--tips" aria-hidden="true"><span>💡</span></div>
+              <div class="art-card__body">
+                <div class="art-card__tags"><span class="art-tag art-tag--tips">Tips</span></div>
+                <h3 class="art-card__title">Cara Bikin Brief ke Vendor yang Efektif dan Tidak Mbulet</h3>
+                <p class="art-card__excerpt">Brief yang jelas = hasil yang sesuai. Ini template dan checklist yang bisa langsung kamu pakai sekarang.</p>
+                <div class="art-card__footer">
+                  <span class="art-card__date">15 Mei 2025</span>
+                  <span class="art-card__read">5 mnt baca</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="art-card" data-category="kolektiva">
+            <a href="#" class="art-card__link">
+              <div class="art-card__visual art-card__visual--kolektiva" aria-hidden="true"><span>👕</span></div>
+              <div class="art-card__body">
+                <div class="art-card__tags"><span class="art-tag art-tag--kolektiva">Kolektiva</span></div>
+                <h3 class="art-card__title">DTF, DTG, atau Screen? Panduan Memilih Teknik Sablon</h3>
+                <p class="art-card__excerpt">Setiap teknik punya kelebihan berbeda tergantung kuantitas, desain, dan bahan kain. Panduan lengkapnya di sini.</p>
+                <div class="art-card__footer">
+                  <span class="art-card__date">10 Mei 2025</span>
+                  <span class="art-card__read">5 mnt baca</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="art-card" data-category="tips">
+            <a href="#" class="art-card__link">
+              <div class="art-card__visual art-card__visual--tips" aria-hidden="true"><span>📊</span></div>
+              <div class="art-card__body">
+                <div class="art-card__tags"><span class="art-tag art-tag--tips">Tips</span></div>
+                <h3 class="art-card__title">RAB Acara yang Rapi: Komponen yang Sering Terlupa Panitia</h3>
+                <p class="art-card__excerpt">Budget overhead, biaya tak terduga, dan alokasi dokumen sering kelewat saat bikin RAB. Ini daftar lengkapnya.</p>
+                <div class="art-card__footer">
+                  <span class="art-card__date">5 Mei 2025</span>
+                  <span class="art-card__read">4 mnt baca</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="art-card" data-category="dikopi">
+            <a href="#" class="art-card__link">
+              <div class="art-card__visual art-card__visual--dikopi" aria-hidden="true"><span>🌿</span></div>
+              <div class="art-card__body">
+                <div class="art-card__tags"><span class="art-tag art-tag--dikopi">Dikopi</span></div>
+                <h3 class="art-card__title">Natural vs Washed Process: Mana yang Lebih Enak?</h3>
+                <p class="art-card__excerpt">Proses pasca panen sangat menentukan rasa kopi yang sampai ke cangkirmu. Penjelasan simpelnya ada di sini.</p>
+                <div class="art-card__footer">
+                  <span class="art-card__date">28 Apr 2025</span>
+                  <span class="art-card__read">6 mnt baca</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="art-card" data-category="imagineer">
+            <a href="#" class="art-card__link">
+              <div class="art-card__visual art-card__visual--imagineer" aria-hidden="true"><span>📸</span></div>
+              <div class="art-card__body">
+                <div class="art-card__tags"><span class="art-tag art-tag--imagineer">Imagineer</span></div>
+                <h3 class="art-card__title">Dokumentasi Acara yang Layak Diposting: 10 Shot Wajib</h3>
+                <p class="art-card__excerpt">Dari opening ceremony sampai behind the scenes — angle dan momen yang bikin konten acara kamu kelihatan profesional.</p>
+                <div class="art-card__footer">
+                  <span class="art-card__date">20 Apr 2025</span>
+                  <span class="art-card__read">3 mnt baca</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+        </div><!-- end art-grid -->
+
+        <!-- Empty State -->
+        <div class="art-empty" id="art-empty" hidden aria-live="polite">
+          <span class="art-empty__icon" aria-hidden="true">📭</span>
+          <p class="art-empty__title">Belum ada artikel di kategori ini.</p>
+          <p class="art-empty__sub">Mau request topik tertentu?</p>
+          <a href="https://wa.me/6285172107815" class="btn btn-primary" target="_blank" rel="noopener">Hubungi via WhatsApp</a>
+        </div>
+
+        <!-- Bottom CTA -->
+        <div class="art-cta" data-reveal>
+          <div class="art-cta__inner">
+            <div>
+              <p class="art-cta__label">Request Topik</p>
+              <p class="art-cta__text">Ada topik yang ingin kamu baca? Kasih tahu kami lewat WhatsApp.</p>
+            </div>
+            <a href="https://wa.me/6285172107815" class="btn btn-primary" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+              Request via WA
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo navbar__logo" aria-label="Pratani Creative">
+            <div class="navbar__logo-mark" aria-hidden="true">P</div>
+            <div class="navbar__logo-text">
+              <span class="navbar__logo-name">Pratani</span>
+              <span class="navbar__logo-sub">Creative</span>
+            </div>
+          </a>
+          <p class="footer__tagline">Sahabat komunitas kreatif sejak 2023. Konveksi, kopi, dan creative agency dalam satu holding yang profesional.</p>
+          <div class="footer__socials">
+            <a href="https://instagram.com/pt.pratani_creative" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram Pratani Creative">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/6285172107815" class="footer__social-link" target="_blank" rel="noopener" aria-label="WhatsApp Pratani Creative">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+            </a>
+          </div>
+          <div class="badge-legal" style="width: fit-content;">
+            <span class="badge-legal__dot" aria-hidden="true"></span>
+            PT Resmi 2025
+          </div>
+        </div>
+        <div>
+          <h3 class="footer__col-title">Navigasi</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="tentang.html" class="footer__link">Tentang Kami</a></li>
+            <li><a href="brand/kolektiva.html" class="footer__link">Brand Kami</a></li>
+            <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+            <li><a href="artikel.html" class="footer__link">Artikel</a></li>
+            <li><a href="link-penting.html" class="footer__link">Link Penting</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__col-title">Brand</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="brand/kolektiva.html" class="footer__link" style="display:flex;align-items:center;gap:8px;"><span style="width:7px;height:7px;border-radius:50%;background:var(--kolektiva);flex-shrink:0;" aria-hidden="true"></span>Kolektiva</a></li>
+            <li><a href="brand/dikopi.html" class="footer__link" style="display:flex;align-items:center;gap:8px;"><span style="width:7px;height:7px;border-radius:50%;background:var(--dikopi);flex-shrink:0;" aria-hidden="true"></span>Dikopi</a></li>
+            <li><a href="brand/imagineer.html" class="footer__link" style="display:flex;align-items:center;gap:8px;"><span style="width:7px;height:7px;border-radius:50%;background:var(--imagineer);flex-shrink:0;" aria-hidden="true"></span>Imagineer</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__col-title">Kontak</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="https://wa.me/6285172107815" class="footer__link" target="_blank" rel="noopener">📱 0851-7210-7815</a></li>
+            <li><a href="https://instagram.com/pt.pratani_creative" class="footer__link" target="_blank" rel="noopener">📸 @pt.pratani_creative</a></li>
+            <li><a href="mailto:hello@pratani.id" class="footer__link">✉️ hello@pratani.id</a></li>
+            <li class="footer__link" style="cursor:default;">📍 Brebes, Jawa Tengah</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copyright">© 2025 PT Pratani Kreatif Group. All rights reserved.</span>
+        <span class="footer__legal-info">AHU-053343.AH.01.30.Tahun 2025</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/pages/artikel.js" defer></script>
+
+</body>
+</html>
