@@ -1,0 +1,209 @@
+.kontak-page {
+  min-height: 100svh;
+  background: var(--bg);
+  padding-top: var(--nav-total);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Hero text ── */
+.kontak-hero {
+  text-align: center;
+  padding: clamp(3.5rem, 7vw, 5.5rem) var(--container-pad) clamp(2rem, 4vw, 3rem);
+}
+
+.kontak-hero__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.67rem; font-weight: 500;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--accent);
+  display: flex; align-items: center; justify-content: center; gap: 12px;
+  margin-bottom: 20px;
+}
+.kontak-hero__eyebrow::before,
+.kontak-hero__eyebrow::after {
+  content: ''; display: block;
+  width: 24px; height: 1px; background: var(--accent);
+}
+
+.kontak-hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 900; line-height: 1.05;
+  color: var(--navy); letter-spacing: -0.02em;
+  margin-bottom: 14px;
+}
+.kontak-hero__title em {
+  font-style: italic; color: var(--accent);
+}
+
+.kontak-hero__sub {
+  font-size: 1rem; font-weight: 300;
+  color: var(--text-muted); line-height: 1.75;
+  max-width: 420px; margin: 0 auto;
+}
+
+/* ── Form card ── */
+.kontak-form-wrap {
+  flex: 1;
+  display: flex; align-items: flex-start; justify-content: center;
+  padding: 0 var(--container-pad) clamp(3rem, 6vw, 5rem);
+}
+
+.kontak-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: clamp(2rem, 4vw, 3rem);
+  width: 100%; max-width: 600px;
+  box-shadow: 0 8px 48px rgba(26,35,64,0.07), 0 2px 8px rgba(26,35,64,0.04);
+}
+
+/* ── Form grid ── */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.form-field {
+  position: relative;
+  display: flex; flex-direction: column;
+}
+
+.form-field--full {
+  grid-column: 1 / -1;
+}
+
+.form-field__label {
+  font-family: var(--font-mono);
+  font-size: 0.62rem; font-weight: 500;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--text-subtle);
+  margin-bottom: 7px;
+}
+
+.form-field__input,
+.form-field__select,
+.form-field__textarea {
+  width: 100%;
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 13px 16px 13px 44px;
+  color: var(--navy);
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  font-weight: 400;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.form-field__select {
+  cursor: pointer;
+}
+
+.form-field__textarea {
+  padding: 13px 16px;
+  min-height: 130px;
+  resize: vertical;
+  line-height: 1.65;
+}
+
+.form-field__input:focus,
+.form-field__select:focus,
+.form-field__textarea:focus {
+  border-color: var(--accent);
+  background: var(--surface);
+  box-shadow: 0 0 0 3px rgba(196,98,58,0.09);
+}
+
+.form-field__input::placeholder,
+.form-field__textarea::placeholder {
+  color: var(--text-subtle);
+  font-weight: 300;
+}
+
+.form-field__icon {
+  position: absolute;
+  left: 14px;
+  bottom: 13px;
+  width: 18px; height: 18px;
+  color: var(--text-subtle);
+  pointer-events: none;
+  transition: color 0.2s ease;
+}
+
+.form-field:focus-within .form-field__icon {
+  color: var(--accent);
+}
+
+.form-field__select-arrow {
+  position: absolute;
+  right: 14px; bottom: 15px;
+  width: 16px; height: 16px;
+  color: var(--text-subtle);
+  pointer-events: none;
+}
+
+.form-submit {
+  width: 100%;
+  margin-top: 20px;
+  padding: 1rem 2rem;
+  background: var(--accent);
+  color: var(--text-inverse);
+  border: none; border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 1rem; font-weight: 700;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+.form-submit:hover {
+  background: var(--accent-light);
+  box-shadow: 0 4px 24px rgba(196,98,58,0.3);
+}
+.form-submit:active { transform: scale(0.98); }
+.form-submit svg { width: 18px; height: 18px; }
+
+/* ── Info strip below form ── */
+.kontak-info {
+  padding: clamp(2rem, 4vw, 3rem) var(--container-pad);
+  background: var(--navy-deep);
+  border-top: 1px solid rgba(196,98,58,0.12);
+}
+
+.kontak-info__inner {
+  max-width: 600px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6); text-align: center;
+}
+
+.info-item__icon {
+  font-size: 1.4rem; margin-bottom: 8px;
+}
+.info-item__label {
+  font-family: var(--font-mono); font-size: 0.6rem;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: rgba(245,240,232,0.35); margin-bottom: 5px;
+}
+.info-item__value {
+  font-size: 0.9rem; font-weight: 500;
+  color: rgba(245,240,232,0.7); line-height: 1.4;
+}
+.info-item__value a {
+  color: var(--accent-light);
+  transition: color 0.15s ease;
+}
+.info-item__value a:hover { opacity: 0.8; }
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .form-row { grid-template-columns: 1fr; }
+  .kontak-info__inner { grid-template-columns: 1fr; gap: var(--space-5); }
+  .kontak-card { border-radius: var(--radius-lg); }
+}

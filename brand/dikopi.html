@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dikopi — Brand kopi dari Pratani Creative." />
+  <meta property="og:title" content="Dikopi" />
+  <meta property="og:type" content="website" />
+  <title>Dikopi — Pratani Creative</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/pages/dikopi.css" />
+
+</head>
+
+<body>
+
+  <div class="bg-glow-layer" aria-hidden="true"></div>
+
+  <!-- TOPBAR -->
+  <div class="topbar" role="banner">
+    <div class="topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__tag">PT Pratani Kreatif Group</span>
+        <span class="topbar__dot" aria-hidden="true"></span>
+        <span class="topbar__tag">AHU-053343.AH.01.30.Tahun 2025</span>
+      </div>
+      <div class="topbar__right">
+        <a href="https://wa.me/6285172107815" class="topbar__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+          0851-7210-7815
+        </a>
+        <span class="topbar__dot" aria-hidden="true"></span>
+        <a href="https://instagram.com/by.dikopi" class="topbar__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          @by.dikopi
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" aria-label="Navigasi utama">
+    <div class="navbar__inner">
+      <a href="/" class="navbar__logo" aria-label="Pratani Creative — Beranda">
+        <div class="navbar__logo-mark" aria-hidden="true">P</div>
+        <div class="navbar__logo-text">
+          <span class="navbar__logo-name">Pratani</span>
+          <span class="navbar__logo-sub">Creative</span>
+        </div>
+      </a>
+
+      <ul class="navbar__nav" role="list">
+        <li><a href="../index.html" class="navbar__link">Home</a></li>
+        <li><a href="../tentang.html" class="navbar__link">Tentang</a></li>
+        <li class="navbar__dropdown">
+          <a href="dikopi.html" class="navbar__link navbar__dropdown-toggle active">
+            Brand
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="navbar__dropdown-menu" role="menu">
+            <a href="kolektiva.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--kolektiva);" aria-hidden="true"></span>
+              Kolektiva
+            </a>
+            <a href="dikopi.html" class="navbar__dropdown-item active" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--dikopi);" aria-hidden="true"></span>
+              Dikopi
+            </a>
+            <a href="imagineer.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--imagineer);" aria-hidden="true"></span>
+              Imagineer
+            </a>
+          </div>
+        </li>
+        <li><a href="../portfolio.html" class="navbar__link">Portfolio</a></li>
+        <li><a href="../kontak.html" class="navbar__link">Kontak</a></li>
+      </ul>
+
+      <a href="https://wa.me/6285172107815" class="btn btn-primary btn-sm navbar__cta" target="_blank" rel="noopener">
+        Minta Penawaran
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+
+      <button class="navbar__hamburger" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <nav class="navbar__mobile-menu" id="mobile-menu" aria-label="Menu mobile">
+    <a href="../index.html" class="navbar__mobile-link">Home</a>
+    <a href="../tentang.html" class="navbar__mobile-link">Tentang</a>
+    <a href="dikopi.html" class="navbar__mobile-link active">Brand</a>
+    <a href="../portfolio.html" class="navbar__mobile-link">Portfolio</a>
+    <a href="../kontak.html" class="navbar__mobile-link">Kontak</a>
+    <div style="margin-top: 2rem;">
+      <a href="https://wa.me/6285172107815" class="btn btn-primary btn-lg" style="width:100%; justify-content:center;" target="_blank" rel="noopener">
+        Minta Penawaran →
+      </a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Konten halaman Dikopi akan ditambahkan di sini -->
+  </main>
+
+</body>
+</html>

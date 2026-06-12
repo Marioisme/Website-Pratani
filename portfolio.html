@@ -1,0 +1,479 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Pratani Creative — Hasil kerja Kolektiva, Dikopi, dan Imagineer untuk komunitas kreatif." />
+  <meta property="og:title" content="Portfolio — Pratani Creative" />
+  <meta property="og:type" content="website" />
+  <title>Portfolio — Pratani Creative</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/pages/portfolio.css" />
+
+</head>
+
+<body>
+
+  <div class="bg-glow-layer" aria-hidden="true"></div>
+
+  <!-- TOPBAR -->
+  <div class="topbar" role="banner">
+    <div class="topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__tag">PT Pratani Kreatif Group</span>
+        <span class="topbar__dot" aria-hidden="true"></span>
+        <span class="topbar__tag">AHU-053343.AH.01.30.Tahun 2025</span>
+      </div>
+      <div class="topbar__right">
+        <a href="https://wa.me/6285172107815" class="topbar__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+          0851-7210-7815
+        </a>
+        <span class="topbar__dot" aria-hidden="true"></span>
+        <a href="https://instagram.com/pt.pratani_creative" class="topbar__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          @pt.pratani_creative
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" aria-label="Navigasi utama">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Pratani Creative — Beranda">
+        <div class="navbar__logo-mark" aria-hidden="true">P</div>
+        <div class="navbar__logo-text">
+          <span class="navbar__logo-name">Pratani</span>
+          <span class="navbar__logo-sub">Creative</span>
+        </div>
+      </a>
+
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html" class="navbar__link">Home</a></li>
+        <li><a href="tentang.html" class="navbar__link">Tentang</a></li>
+        <li class="navbar__dropdown">
+          <a href="brand/kolektiva.html" class="navbar__link navbar__dropdown-toggle">
+            Brand
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="navbar__dropdown-menu" role="menu">
+            <a href="brand/kolektiva.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--kolektiva);" aria-hidden="true"></span>
+              Kolektiva
+            </a>
+            <a href="brand/dikopi.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--dikopi);" aria-hidden="true"></span>
+              Dikopi
+            </a>
+            <a href="brand/imagineer.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--imagineer);" aria-hidden="true"></span>
+              Imagineer
+            </a>
+          </div>
+        </li>
+        <li><a href="portfolio.html" class="navbar__link active">Portfolio</a></li>
+        <li><a href="kontak.html" class="navbar__link">Kontak</a></li>
+      </ul>
+
+      <a href="kontak.html" class="btn btn-primary btn-sm navbar__cta">
+        Hubungi Kami
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+
+      <button class="navbar__hamburger" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <nav class="navbar__mobile-menu" id="mobile-menu" aria-label="Menu mobile">
+    <a href="index.html" class="navbar__mobile-link">Home</a>
+    <a href="tentang.html" class="navbar__mobile-link">Tentang</a>
+    <a href="brand/kolektiva.html" class="navbar__mobile-link">Brand</a>
+    <a href="portfolio.html" class="navbar__mobile-link active">Portfolio</a>
+    <a href="kontak.html" class="navbar__mobile-link">Kontak</a>
+    <div style="margin-top: 2rem;">
+      <a href="kontak.html" class="btn btn-primary btn-lg" style="width: 100%; justify-content: center;">
+        Hubungi Kami →
+      </a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="page-hero" aria-labelledby="porto-title">
+      <div class="page-hero__bg" aria-hidden="true"></div>
+      <div class="page-hero__inner">
+        <p class="page-hero__eyebrow">Portfolio</p>
+        <h1 class="page-hero__title" id="porto-title">
+          Hasil kerja yang<br>
+          <em>bicara sendiri.</em>
+        </h1>
+        <p class="page-hero__desc">
+          Dari kaos event kampus sampai branding bisnis lokal — setiap proyek dikerjakan
+          dengan <strong>standar yang sama</strong>: detail, on-time, dan dokumen beres.
+        </p>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <div class="stats-strip" role="region" aria-label="Statistik portfolio">
+      <div class="container">
+        <div class="stats-strip__inner">
+          <div class="stats-strip__item">
+            <div class="stats-strip__num"><span>3</span></div>
+            <div class="stats-strip__label">Brand<br>Aktif</div>
+          </div>
+          <div class="stats-strip__divider" aria-hidden="true"></div>
+          <div class="stats-strip__item">
+            <div class="stats-strip__num">100<span>%</span></div>
+            <div class="stats-strip__label">Dokumen<br>LPJ-Safe</div>
+          </div>
+          <div class="stats-strip__divider" aria-hidden="true"></div>
+          <div class="stats-strip__item">
+            <div class="stats-strip__num">PT</div>
+            <div class="stats-strip__label">Legal<br>Terdaftar</div>
+          </div>
+          <div class="stats-strip__divider" aria-hidden="true"></div>
+          <div class="stats-strip__item">
+            <div class="stats-strip__num" style="font-size:1.6rem;">2023</div>
+            <div class="stats-strip__label">Berdiri<br>Sejak</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <section class="section" style="background: var(--bg);" aria-labelledby="porto-grid-title">
+      <div class="container">
+
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <span class="section-eyebrow">Semua Proyek</span>
+          <h2 class="text-h2" id="porto-grid-title" style="margin-bottom: 0;">
+            Karya kami,<br><em style="color: var(--accent);">dari berbagai brand.</em>
+          </h2>
+        </div>
+
+        <!-- Filter -->
+        <div class="filter-bar" role="group" aria-label="Filter portfolio">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="kolektiva">
+            <span class="filter-dot" style="background: var(--kolektiva);"></span>
+            Kolektiva
+          </button>
+          <button class="filter-btn" data-filter="dikopi">
+            <span class="filter-dot" style="background: var(--dikopi);"></span>
+            Dikopi
+          </button>
+          <button class="filter-btn" data-filter="imagineer">
+            <span class="filter-dot" style="background: var(--imagineer);"></span>
+            Imagineer
+          </button>
+        </div>
+
+        <!-- Grid -->
+        <div class="porto-grid" id="porto-grid">
+
+          <!-- KOLEKTIVA items -->
+          <article class="porto-card" data-brand="kolektiva">
+            <div class="porto-card__thumb">
+              <div class="porto-card__thumb-inner">
+                <div class="porto-card__emoji">🧵</div>
+                <div class="porto-card__thumb-label">Foto segera hadir</div>
+              </div>
+              <div class="porto-card__brand-bar" style="background: var(--kolektiva);"></div>
+            </div>
+            <div class="porto-card__body">
+              <div class="porto-card__meta">
+                <span class="porto-card__tag porto-card__tag--kolektiva">Kolektiva</span>
+                <span class="porto-card__year">2024</span>
+              </div>
+              <div class="porto-card__title">Kaos Event Kampus OSPEK</div>
+              <div class="porto-card__desc">Produksi 200 pcs kaos sablon untuk orientasi mahasiswa baru. Full dokumen LPJ tersedia.</div>
+            </div>
+          </article>
+
+          <article class="porto-card" data-brand="kolektiva">
+            <div class="porto-card__thumb">
+              <div class="porto-card__thumb-inner">
+                <div class="porto-card__emoji">🧥</div>
+                <div class="porto-card__thumb-label">Foto segera hadir</div>
+              </div>
+              <div class="porto-card__brand-bar" style="background: var(--kolektiva);"></div>
+            </div>
+            <div class="porto-card__body">
+              <div class="porto-card__meta">
+                <span class="porto-card__tag porto-card__tag--kolektiva">Kolektiva</span>
+                <span class="porto-card__year">2024</span>
+              </div>
+              <div class="porto-card__title">Jaket PDH Himpunan Mahasiswa</div>
+              <div class="porto-card__desc">Jaket PDH bordur untuk HIMA Teknik dengan RAB, MoU, Invoice, BAST, dan Kwitansi lengkap.</div>
+            </div>
+          </article>
+
+          <article class="porto-card" data-brand="kolektiva">
+            <div class="porto-card__thumb">
+              <div class="porto-card__thumb-inner">
+                <div class="porto-card__emoji">🏷️</div>
+                <div class="porto-card__thumb-label">Foto segera hadir</div>
+              </div>
+              <div class="porto-card__brand-bar" style="background: var(--kolektiva);"></div>
+            </div>
+            <div class="porto-card__body">
+              <div class="porto-card__meta">
+                <span class="porto-card__tag porto-card__tag--kolektiva">Kolektiva</span>
+                <span class="porto-card__year">2025</span>
+              </div>
+              <div class="porto-card__title">Merchandise Paket Event Seminar</div>
+              <div class="porto-card__desc">Tote bag, lanyard, dan stiker untuk seminar nasional kampus. MOQ rendah, timeline 7 hari.</div>
+            </div>
+          </article>
+
+          <!-- DIKOPI items -->
+          <article class="porto-card" data-brand="dikopi">
+            <div class="porto-card__thumb">
+              <div class="porto-card__thumb-inner">
+                <div class="porto-card__emoji">☕</div>
+                <div class="porto-card__thumb-label">Foto segera hadir</div>
+              </div>
+              <div class="porto-card__brand-bar" style="background: var(--dikopi);"></div>
+            </div>
+            <div class="porto-card__body">
+              <div class="porto-card__meta">
+                <span class="porto-card__tag porto-card__tag--dikopi">Dikopi</span>
+                <span class="porto-card__year">2024</span>
+              </div>
+              <div class="porto-card__title">Kopi Lio Natural Process</div>
+              <div class="porto-card__desc">Single origin dari ketinggian 500–1200 MDPL Pegunungan Lio, Brebes. Profil rasa fruity banana.</div>
+            </div>
+          </article>
+
+          <article class="porto-card" data-brand="dikopi">
+            <div class="porto-card__thumb">
+              <div class="porto-card__thumb-inner">
+                <div class="porto-card__emoji">🫙</div>
+                <div class="porto-card__thumb-label">Foto segera hadir</div>
+              </div>
+              <div class="porto-card__brand-bar" style="background: var(--dikopi);"></div>
+            </div>
+            <div class="porto-card__body">
+              <div class="porto-card__meta">
+                <span class="porto-card__tag porto-card__tag--dikopi">Dikopi</span>
+                <span class="porto-card__year">2024</span>
+              </div>
+              <div class="porto-card__title">Catering Kopi Event Kampus</div>
+              <div class="porto-card__desc">Penyediaan minuman kopi untuk acara seminar dan gathering mahasiswa. Ready take-away maupun on-site.</div>
+            </div>
+          </article>
+
+          <article class="porto-card" data-brand="dikopi">
+            <div class="porto-card__thumb">
+              <div class="porto-card__thumb-inner">
+                <div class="porto-card__emoji">🏪</div>
+                <div class="porto-card__thumb-label">Foto segera hadir</div>
+              </div>
+              <div class="porto-card__brand-bar" style="background: var(--dikopi);"></div>
+            </div>
+            <div class="porto-card__body">
+              <div class="porto-card__meta">
+                <span class="porto-card__tag porto-card__tag--dikopi">Dikopi</span>
+                <span class="porto-card__year">2025</span>
+              </div>
+              <div class="porto-card__title">Kedai Dikopi — Dine-in Brebes</div>
+              <div class="porto-card__desc">Suasana kedai ~20 kursi di Brebes. Grab-and-go tersedia, menu minuman berbasis kopi lokal.</div>
+            </div>
+          </article>
+
+          <!-- IMAGINEER items -->
+          <article class="porto-card" data-brand="imagineer">
+            <div class="porto-card__thumb">
+              <div class="porto-card__thumb-inner">
+                <div class="porto-card__emoji">✦</div>
+                <div class="porto-card__thumb-label">Foto segera hadir</div>
+              </div>
+              <div class="porto-card__brand-bar" style="background: var(--imagineer);"></div>
+            </div>
+            <div class="porto-card__body">
+              <div class="porto-card__meta">
+                <span class="porto-card__tag porto-card__tag--imagineer">Imagineer</span>
+                <span class="porto-card__year">2024</span>
+              </div>
+              <div class="porto-card__title">Desain Visual Event Nasional</div>
+              <div class="porto-card__desc">Paket desain lengkap — poster, banner, sosmed kit, dan rundown visual untuk seminar nasional.</div>
+            </div>
+          </article>
+
+          <article class="porto-card" data-brand="imagineer">
+            <div class="porto-card__thumb">
+              <div class="porto-card__thumb-inner">
+                <div class="porto-card__emoji">📸</div>
+                <div class="porto-card__thumb-label">Foto segera hadir</div>
+              </div>
+              <div class="porto-card__brand-bar" style="background: var(--imagineer);"></div>
+            </div>
+            <div class="porto-card__body">
+              <div class="porto-card__meta">
+                <span class="porto-card__tag porto-card__tag--imagineer">Imagineer</span>
+                <span class="porto-card__year">2024</span>
+              </div>
+              <div class="porto-card__title">Dokumentasi & Fotografi Acara</div>
+              <div class="porto-card__desc">Liputan foto dan video untuk acara inaugurasi, wisuda, dan gathering organisasi mahasiswa.</div>
+            </div>
+          </article>
+
+          <article class="porto-card" data-brand="imagineer">
+            <div class="porto-card__thumb">
+              <div class="porto-card__thumb-inner">
+                <div class="porto-card__emoji">📱</div>
+                <div class="porto-card__thumb-label">Foto segera hadir</div>
+              </div>
+              <div class="porto-card__brand-bar" style="background: var(--imagineer);"></div>
+            </div>
+            <div class="porto-card__body">
+              <div class="porto-card__meta">
+                <span class="porto-card__tag porto-card__tag--imagineer">Imagineer</span>
+                <span class="porto-card__year">2025</span>
+              </div>
+              <div class="porto-card__title">Sosial Media Management</div>
+              <div class="porto-card__desc">Pengelolaan konten Instagram dan TikTok untuk brand lokal Brebes — strategi, desain, dan caption.</div>
+            </div>
+          </article>
+
+        </div><!-- end porto-grid -->
+
+        <div class="porto-empty" id="porto-empty" aria-live="polite">
+          <div class="porto-empty__icon">📂</div>
+          <div class="porto-empty__text">Tidak ada proyek di kategori ini.</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-inner" data-reveal>
+          <div>
+            <p class="cta-eyebrow">Proyek Berikutnya</p>
+            <h2 class="cta-title" id="cta-title">
+              Mau proyek lo<br>
+              <em>masuk di sini?</em>
+            </h2>
+            <p class="cta-note">
+              Konsultasikan kebutuhan lo sekarang — gratis, tanpa komitmen.
+              Kami siap bantu dari nol sampai selesai.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a href="https://wa.me/6285172107815" class="btn-cta-white" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+              Mulai Konsultasi
+            </a>
+            <a href="kontak.html" class="btn-cta-outline">
+              Kirim Brief →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo navbar__logo" aria-label="Pratani Creative">
+            <div class="navbar__logo-mark" aria-hidden="true">P</div>
+            <div class="navbar__logo-text">
+              <span class="navbar__logo-name">Pratani</span>
+              <span class="navbar__logo-sub">Creative</span>
+            </div>
+          </a>
+          <p class="footer__tagline">
+            Sahabat komunitas kreatif sejak 2023. Konveksi, kopi, dan creative agency
+            dalam satu holding yang profesional.
+          </p>
+          <div class="footer__socials">
+            <a href="https://instagram.com/pt.pratani_creative" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram Pratani Creative">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/6285172107815" class="footer__social-link" target="_blank" rel="noopener" aria-label="WhatsApp Pratani Creative">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+            </a>
+          </div>
+          <div class="badge-legal" style="width: fit-content;">
+            <span class="badge-legal__dot" aria-hidden="true"></span>
+            PT Resmi 2025
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Navigasi</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="tentang.html" class="footer__link">Tentang Kami</a></li>
+            <li><a href="brand/kolektiva.html" class="footer__link">Brand Kami</a></li>
+            <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+            <li><a href="kontak.html" class="footer__link">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Brand</h3>
+          <ul class="footer__links" role="list">
+            <li>
+              <a href="brand/kolektiva.html" class="footer__link" style="display:flex; align-items:center; gap:8px;">
+                <span style="width:7px; height:7px; border-radius:50%; background:var(--kolektiva); flex-shrink:0;" aria-hidden="true"></span>
+                Kolektiva
+              </a>
+            </li>
+            <li>
+              <a href="brand/dikopi.html" class="footer__link" style="display:flex; align-items:center; gap:8px;">
+                <span style="width:7px; height:7px; border-radius:50%; background:var(--dikopi); flex-shrink:0;" aria-hidden="true"></span>
+                Dikopi
+              </a>
+            </li>
+            <li>
+              <a href="brand/imagineer.html" class="footer__link" style="display:flex; align-items:center; gap:8px;">
+                <span style="width:7px; height:7px; border-radius:50%; background:var(--imagineer); flex-shrink:0;" aria-hidden="true"></span>
+                Imagineer
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Kontak</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="https://wa.me/6285172107815" class="footer__link" target="_blank" rel="noopener">📱 0851-7210-7815</a></li>
+            <li><a href="https://instagram.com/pt.pratani_creative" class="footer__link" target="_blank" rel="noopener">📸 @pt.pratani_creative</a></li>
+            <li><a href="mailto:hello@pratani.id" class="footer__link">✉️ hello@pratani.id</a></li>
+            <li class="footer__link" style="cursor:default;">📍 Brebes, Jawa Tengah</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <span class="footer__copyright">© 2025 PT Pratani Kreatif Group. All rights reserved.</span>
+        <span class="footer__legal-info">AHU-053343.AH.01.30.Tahun 2025</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+
+
+  <script src="assets/js/pages/portfolio.js" defer></script>
+</body>
+</html>

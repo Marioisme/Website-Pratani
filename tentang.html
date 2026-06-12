@@ -1,0 +1,499 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tentang Pratani Creative — Cerita di balik PT Pratani Kreatif Group, vendor komunitas kreatif sejak 2023." />
+  <meta property="og:title" content="Tentang Kami — Pratani Creative" />
+  <meta property="og:type" content="website" />
+  <title>Tentang Kami — Pratani Creative</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/pages/tentang.css" />
+
+</head>
+
+<body>
+
+  <div class="bg-glow-layer" aria-hidden="true"></div>
+
+  <!-- TOPBAR -->
+  <div class="topbar" role="banner">
+    <div class="topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__tag">PT Pratani Kreatif Group</span>
+        <span class="topbar__dot" aria-hidden="true"></span>
+        <span class="topbar__tag">AHU-053343.AH.01.30.Tahun 2025</span>
+      </div>
+      <div class="topbar__right">
+        <a href="https://wa.me/6285172107815" class="topbar__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+          0851-7210-7815
+        </a>
+        <span class="topbar__dot" aria-hidden="true"></span>
+        <a href="https://instagram.com/pt.pratani_creative" class="topbar__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          @pt.pratani_creative
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" aria-label="Navigasi utama">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Pratani Creative — Beranda">
+        <div class="navbar__logo-mark" aria-hidden="true">P</div>
+        <div class="navbar__logo-text">
+          <span class="navbar__logo-name">Pratani</span>
+          <span class="navbar__logo-sub">Creative</span>
+        </div>
+      </a>
+
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html" class="navbar__link">Home</a></li>
+        <li><a href="tentang.html" class="navbar__link active">Tentang</a></li>
+        <li class="navbar__dropdown">
+          <a href="brand/kolektiva.html" class="navbar__link navbar__dropdown-toggle">
+            Brand
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="navbar__dropdown-menu" role="menu">
+            <a href="brand/kolektiva.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--kolektiva);" aria-hidden="true"></span>
+              Kolektiva
+            </a>
+            <a href="brand/dikopi.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--dikopi);" aria-hidden="true"></span>
+              Dikopi
+            </a>
+            <a href="brand/imagineer.html" class="navbar__dropdown-item" role="menuitem">
+              <span class="navbar__dropdown-dot" style="background: var(--imagineer);" aria-hidden="true"></span>
+              Imagineer
+            </a>
+          </div>
+        </li>
+        <li><a href="portfolio.html" class="navbar__link">Portfolio</a></li>
+        <li><a href="kontak.html" class="navbar__link">Kontak</a></li>
+      </ul>
+
+      <a href="kontak.html" class="btn btn-primary btn-sm navbar__cta">
+        Hubungi Kami
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+
+      <button class="navbar__hamburger" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <nav class="navbar__mobile-menu" id="mobile-menu" aria-label="Menu mobile">
+    <a href="index.html" class="navbar__mobile-link">Home</a>
+    <a href="tentang.html" class="navbar__mobile-link active">Tentang</a>
+    <a href="brand/kolektiva.html" class="navbar__mobile-link">Brand</a>
+    <a href="portfolio.html" class="navbar__mobile-link">Portfolio</a>
+    <a href="kontak.html" class="navbar__mobile-link">Kontak</a>
+    <div style="margin-top: 2rem;">
+      <a href="kontak.html" class="btn btn-primary btn-lg" style="width: 100%; justify-content: center;">
+        Hubungi Kami →
+      </a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="page-hero" aria-labelledby="tentang-title">
+      <div class="page-hero__bg" aria-hidden="true"></div>
+      <div class="page-hero__inner">
+        <p class="page-hero__eyebrow">Tentang Kami</p>
+        <h1 class="page-hero__title" id="tentang-title">
+          Bukan sekadar vendor.<br>
+          <em>Kami pernah jadi panitia.</em>
+        </h1>
+        <p class="page-hero__desc">
+          Pratani Creative lahir dari frustrasi nyata — ketika vendor ghosting,
+          dokumen gak lengkap, dan deadline mepet jadi mimpi buruk panitia kampus.
+          <strong>Kami hadir untuk mengubah itu.</strong>
+        </p>
+      </div>
+    </section>
+
+    <!-- ORIGIN STORY -->
+    <section class="origin-section section" aria-labelledby="origin-title">
+      <div class="container">
+        <div class="origin-inner">
+
+          <div>
+            <p class="origin-eyebrow">Asal Usul</p>
+            <h2 class="origin-title" id="origin-title">
+              Dari frustrasi<br>
+              <em>jadi solusi.</em>
+            </h2>
+            <div class="origin-body">
+              <p>
+                Ceritanya dimulai dari <strong>pengalaman langsung</strong> sebagai panitia acara kampus.
+                Cari vendor konveksi yang bisa dipercaya susah, yang mau bikinin dokumen LPJ lebih susah lagi.
+                Sering kali vendor tiba-tiba gak bisa dihubungi saat H-3 deadline.
+              </p>
+              <p>
+                Dari situ, lahirlah <strong>Pratani Creative</strong> pada 2023 — dimulai dari satu layanan
+                konveksi sederhana yang berfokus pada satu hal: <strong>tidak pernah meninggalkan
+                klien di saat paling kritis.</strong>
+              </p>
+              <p>
+                Dua tahun kemudian, kami berkembang menjadi <strong>PT Pratani Kreatif Group</strong>
+                yang menaungi tiga brand aktif — konveksi, kopi, dan creative agency —
+                dengan satu benang merah yang sama: responsif, terdokumentasi, dan paham
+                kebutuhan komunitas kreatif dari dalam.
+              </p>
+            </div>
+          </div>
+
+          <div class="origin-card">
+            <p class="origin-card__quote">
+              "Kami gak akan ghosting pas
+              <span>deadline lo.</span>"
+            </p>
+            <div class="origin-card__divider"></div>
+            <div class="origin-card__stat">
+              <div class="origin-card__stat-item">
+                <div class="origin-card__stat-num">20<span>23</span></div>
+                <div class="origin-card__stat-label">Tahun<br>Berdiri</div>
+              </div>
+              <div class="origin-card__stat-item">
+                <div class="origin-card__stat-num"><span>3</span></div>
+                <div class="origin-card__stat-label">Brand<br>Aktif</div>
+              </div>
+              <div class="origin-card__stat-item">
+                <div class="origin-card__stat-num">PT</div>
+                <div class="origin-card__stat-label">Status<br>Legal Resmi</div>
+              </div>
+            </div>
+            <div class="badge-legal">
+              <span class="badge-legal__dot" aria-hidden="true"></span>
+              AHU-053343.AH.01.30.Tahun 2025
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="values-section section" aria-labelledby="values-title">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <span class="section-eyebrow">Nilai Kami</span>
+          <h2 class="text-h2" id="values-title">Yang bikin kami<br><em style="color: var(--accent);">beda dari yang lain.</em></h2>
+        </div>
+
+        <div class="values-grid">
+
+          <div class="val-card">
+            <div class="val-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="val-card__title">Ngerti Culture Kampus</div>
+            <div class="val-card__desc">
+              Gak perlu jelasin panjang — kami tau bedanya proposal OSPEK dan acara HIMA.
+              Kami pernah duduk di kursi yang sama, dan itu mengubah cara kami bekerja.
+            </div>
+            <span class="val-card__tag">Empati Nyata</span>
+          </div>
+
+          <div class="val-card">
+            <div class="val-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div class="val-card__title">MOQ Rendah, Timeline Mepet Oke</div>
+            <div class="val-card__desc">
+              Order 12 pcs? Mau selesai 5 hari? Bilang aja — kami usahakan, bukan langsung tolak.
+              Kami percaya fleksibilitas adalah bagian dari pelayanan, bukan pengecualian.
+            </div>
+            <span class="val-card__tag">Fleksibel</span>
+          </div>
+
+          <div class="val-card">
+            <div class="val-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <div class="val-card__title">LPJ Lo Langsung Aman</div>
+            <div class="val-card__desc">
+              RAB, MoU, Invoice, BAST, Kwitansi — semua kami siapkan dari awal, tanpa perlu
+              kejar-kejaran minta berkas. PT resmi berarti dokumen bisa dipertanggungjawabkan.
+            </div>
+            <span class="val-card__tag">Dokumen Lengkap</span>
+          </div>
+
+          <div class="val-card">
+            <div class="val-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div class="val-card__title">Harga Masuk Budget Komunitas</div>
+            <div class="val-card__desc">
+              PT resmi bukan berarti tarif korporat. Kami hitung dari budget lo, bukan sebaliknya.
+              Transparansi harga adalah standar kami, bukan pengecualian untuk klien tertentu.
+            </div>
+            <span class="val-card__tag">Transparan</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="timeline-section section" aria-labelledby="timeline-title">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <span class="section-eyebrow">Perjalanan Kami</span>
+          <h2 class="text-h2" id="timeline-title">Dari nol<br><em style="color: var(--accent);">sampai PT resmi.</em></h2>
+        </div>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <div class="timeline-dot__inner"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-year">2023</div>
+              <div class="timeline-event">Pratani Creative berdiri</div>
+              <div class="timeline-desc">
+                Dimulai dari satu layanan konveksi untuk komunitas kampus di Brebes, Jawa Tengah.
+                Fokus pada satu hal: vendor yang tidak ghosting, dengan dokumen yang selalu beres.
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <div class="timeline-dot__inner"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-year">2023 — 2024</div>
+              <div class="timeline-event">Ekspansi ke tiga brand</div>
+              <div class="timeline-desc">
+                Kolektiva untuk konveksi &amp; merchandise, Dikopi untuk kopi lokal Brebes single origin,
+                dan Imagineer untuk kebutuhan creative agency — tiga brand, satu koordinasi.
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <div class="timeline-dot__inner"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-year">2025</div>
+              <div class="timeline-event">Resmi menjadi PT Pratani Kreatif Group</div>
+              <div class="timeline-desc">
+                Terdaftar di AHU dengan nomor AHU-053343.AH.01.30.Tahun 2025.
+                Status PT resmi memastikan setiap transaksi terdokumentasi dan dapat
+                dipertanggungjawabkan secara hukum.
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <div class="timeline-dot__inner timeline-dot__inner--dim"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-year" style="color: var(--text-subtle);">Selanjutnya</div>
+              <div class="timeline-event" style="color: var(--text-muted);">Terus berkembang bersama komunitas</div>
+              <div class="timeline-desc">
+                Ekspansi layanan, lebih banyak komunitas yang terbantu, dan tetap menjadi
+                vendor yang tidak pernah meninggalkan klien di saat paling dibutuhkan.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BRAND STRUCTURE -->
+    <section class="brands-section section" aria-labelledby="brands-title">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <span class="section-eyebrow">Tiga Brand Kami</span>
+          <h2 class="text-h2" id="brands-title">Satu holding,<br><em style="color: var(--accent);">tiga spesialis.</em></h2>
+          <p class="section-header__desc">
+            Setiap brand punya fokus masing-masing, tapi semuanya terhubung dalam satu
+            komitmen: profesional, terdokumentasi, dan responsif.
+          </p>
+        </div>
+
+        <div class="brands-row">
+
+          <a href="brand/kolektiva.html" class="brand-pill brand-pill--kolektiva">
+            <div class="brand-pill__bar" style="background: var(--kolektiva);"></div>
+            <div class="brand-pill__emoji">🧵</div>
+            <div class="brand-pill__label">Konveksi &amp; Merchandise</div>
+            <div class="brand-pill__name">Kolektiva</div>
+            <div class="brand-pill__desc">
+              Kaos, jaket, PDH, jersey, lanyard — dengan dokumen LPJ-safe lengkap dan MOQ rendah.
+            </div>
+            <div class="brand-pill__cta" style="color: var(--kolektiva);">
+              Lihat Detail
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </a>
+
+          <a href="brand/dikopi.html" class="brand-pill brand-pill--dikopi">
+            <div class="brand-pill__bar" style="background: var(--dikopi);"></div>
+            <div class="brand-pill__emoji">☕</div>
+            <div class="brand-pill__label">Coffee Shop</div>
+            <div class="brand-pill__name">Dikopi</div>
+            <div class="brand-pill__desc">
+              Kopi single origin dari Pegunungan Lio, Brebes (500–1200 MDPL). Natural Process, fruity banana.
+            </div>
+            <div class="brand-pill__cta" style="color: var(--dikopi);">
+              Lihat Detail
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </a>
+
+          <a href="brand/imagineer.html" class="brand-pill brand-pill--imagineer">
+            <div class="brand-pill__bar" style="background: var(--imagineer);"></div>
+            <div class="brand-pill__emoji">✦</div>
+            <div class="brand-pill__label">Creative Agency</div>
+            <div class="brand-pill__name">Imagineer</div>
+            <div class="brand-pill__desc">
+              Desain grafis, foto &amp; video, sosmed management, branding — paham deadline mepet.
+            </div>
+            <div class="brand-pill__cta" style="color: var(--imagineer);">
+              Lihat Detail
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-inner" data-reveal>
+          <div>
+            <p class="cta-eyebrow">Mulai Sekarang</p>
+            <h2 class="cta-title" id="cta-title">
+              Sudah kenal kami?<br>
+              <em>Yuk ngobrol.</em>
+            </h2>
+            <p class="cta-note">
+              Konsultasi gratis, tanpa komitmen. Ceritakan kebutuhan lo dan kami bantu
+              cari solusi terbaik — baik itu satu brand atau ketiganya sekaligus.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a href="https://wa.me/6285172107815" class="btn-cta-white" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+              Mulai Konsultasi
+            </a>
+            <a href="kontak.html" class="btn-cta-outline">
+              Kirim Brief →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo navbar__logo" aria-label="Pratani Creative">
+            <div class="navbar__logo-mark" aria-hidden="true">P</div>
+            <div class="navbar__logo-text">
+              <span class="navbar__logo-name">Pratani</span>
+              <span class="navbar__logo-sub">Creative</span>
+            </div>
+          </a>
+          <p class="footer__tagline">
+            Sahabat komunitas kreatif sejak 2023. Konveksi, kopi, dan creative agency
+            dalam satu holding yang profesional.
+          </p>
+          <div class="footer__socials">
+            <a href="https://instagram.com/pt.pratani_creative" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram Pratani Creative">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/6285172107815" class="footer__social-link" target="_blank" rel="noopener" aria-label="WhatsApp Pratani Creative">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+            </a>
+          </div>
+          <div class="badge-legal" style="width: fit-content;">
+            <span class="badge-legal__dot" aria-hidden="true"></span>
+            PT Resmi 2025
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Navigasi</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="tentang.html" class="footer__link">Tentang Kami</a></li>
+            <li><a href="brand/kolektiva.html" class="footer__link">Brand Kami</a></li>
+            <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+            <li><a href="kontak.html" class="footer__link">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Brand</h3>
+          <ul class="footer__links" role="list">
+            <li>
+              <a href="brand/kolektiva.html" class="footer__link" style="display:flex; align-items:center; gap:8px;">
+                <span style="width:7px; height:7px; border-radius:50%; background:var(--kolektiva); flex-shrink:0;" aria-hidden="true"></span>
+                Kolektiva
+              </a>
+            </li>
+            <li>
+              <a href="brand/dikopi.html" class="footer__link" style="display:flex; align-items:center; gap:8px;">
+                <span style="width:7px; height:7px; border-radius:50%; background:var(--dikopi); flex-shrink:0;" aria-hidden="true"></span>
+                Dikopi
+              </a>
+            </li>
+            <li>
+              <a href="brand/imagineer.html" class="footer__link" style="display:flex; align-items:center; gap:8px;">
+                <span style="width:7px; height:7px; border-radius:50%; background:var(--imagineer); flex-shrink:0;" aria-hidden="true"></span>
+                Imagineer
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Kontak</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="https://wa.me/6285172107815" class="footer__link" target="_blank" rel="noopener">📱 0851-7210-7815</a></li>
+            <li><a href="https://instagram.com/pt.pratani_creative" class="footer__link" target="_blank" rel="noopener">📸 @pt.pratani_creative</a></li>
+            <li><a href="mailto:hello@pratani.id" class="footer__link">✉️ hello@pratani.id</a></li>
+            <li class="footer__link" style="cursor:default;">📍 Brebes, Jawa Tengah</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <span class="footer__copyright">© 2025 PT Pratani Kreatif Group. All rights reserved.</span>
+        <span class="footer__legal-info">AHU-053343.AH.01.30.Tahun 2025</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+
+</body>
+</html>

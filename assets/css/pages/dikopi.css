@@ -1,0 +1,12 @@
+.hero {
+  min-height: 88svh;
+  background: var(--navy-deep);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: var(--nav-total);
+}
+
+.section { padding: clamp(4rem, 8vw, 6.5rem) 0; }
