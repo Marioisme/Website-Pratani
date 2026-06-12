@@ -337,7 +337,7 @@
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: var(--space-7);
+  padding: var(--space-8);
   display: flex; gap: var(--space-5); align-items: flex-start;
   transition: border-color var(--duration-base) ease, box-shadow var(--duration-base) ease, transform var(--duration-base) ease;
 }
