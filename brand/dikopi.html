@@ -1,12 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Dikopi — Brand kopi dari Pratani Creative." />
-  <meta property="og:title" content="Dikopi" />
+  <meta name="description" content="Dikopi — Warung kopi garden di Ketanggungan, Brebes. Bonsai, lesehan, string lights, kopi Brebes asli. Bukan kafe, tempat betah." />
+  <meta property="og:title" content="Dikopi — Di sini, kopi cuma alasannya." />
+  <meta property="og:description" content="Nongkrong spot di Ketanggungan, Brebes. Brew kopi Robusta Sindangheula & Arabica Sirampog. Buka tiap hari 17.30–00.00." />
   <meta property="og:type" content="website" />
-  <title>Dikopi — Pratani Creative</title>
+  <title>Dikopi — Ketanggungan, Brebes</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,10 +15,9 @@
 
   <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/pages/dikopi.css" />
-
 </head>
 
-<body>
+<body class="dikopi">
 
   <div class="bg-glow-layer" aria-hidden="true"></div>
 
@@ -46,7 +46,7 @@
   <!-- NAVBAR -->
   <nav class="navbar" aria-label="Navigasi utama">
     <div class="navbar__inner">
-      <a href="/" class="navbar__logo" aria-label="Pratani Creative — Beranda">
+      <a href="../index.html" class="navbar__logo" aria-label="Pratani Creative — Beranda">
         <div class="navbar__logo-mark" aria-hidden="true">P</div>
         <div class="navbar__logo-text">
           <span class="navbar__logo-name">Pratani</span>
@@ -82,8 +82,8 @@
         <li><a href="../link-penting.html" class="navbar__link">Link</a></li>
       </ul>
 
-      <a href="https://wa.me/6285172107815" class="btn btn-primary btn-sm navbar__cta" target="_blank" rel="noopener">
-        Minta Penawaran
+      <a href="https://wa.me/6285172107815" class="btn btn-dikopi btn-sm navbar__cta" target="_blank" rel="noopener">
+        WhatsApp Dikopi
         <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
 
@@ -97,20 +97,492 @@
   <nav class="navbar__mobile-menu" id="mobile-menu" aria-label="Menu mobile">
     <a href="../index.html" class="navbar__mobile-link">Home</a>
     <a href="../tentang.html" class="navbar__mobile-link">Tentang</a>
-    <a href="dikopi.html" class="navbar__mobile-link active">Brand</a>
+    <a href="dikopi.html" class="navbar__mobile-link active">Dikopi</a>
     <a href="../portfolio.html" class="navbar__mobile-link">Portfolio</a>
     <a href="../artikel.html" class="navbar__mobile-link">Artikel</a>
     <a href="../link-penting.html" class="navbar__mobile-link">Link Penting</a>
     <div style="margin-top: 2rem;">
-      <a href="https://wa.me/6285172107815" class="btn btn-primary btn-lg" style="width:100%; justify-content:center;" target="_blank" rel="noopener">
-        Minta Penawaran →
+      <a href="https://wa.me/6285172107815" class="btn btn-dikopi btn-lg" style="width:100%; justify-content:center;" target="_blank" rel="noopener">
+        WhatsApp Dikopi →
       </a>
     </div>
   </nav>
 
   <main id="main-content">
-    <!-- Konten halaman Dikopi akan ditambahkan di sini -->
+
+    <!-- ══════════════════════════════════════════════
+         1. HERO
+    ══════════════════════════════════════════════ -->
+    <section class="dk-hero" aria-labelledby="hero-tagline">
+      <div class="dk-hero__string" aria-hidden="true"></div>
+      <div class="dk-hero__orb-1" aria-hidden="true"></div>
+      <div class="dk-hero__orb-2" aria-hidden="true"></div>
+
+      <div class="dk-hero__inner hero-animate">
+        <span class="dk-hero__label">Dikopi — Ketanggungan, Brebes</span>
+
+        <h1 class="dk-hero__tagline" id="hero-tagline">
+          Di sini, <em>kopi cuma alasannya.</em>
+        </h1>
+
+        <p class="dk-hero__sub">
+          Kursi lesehan, tanaman bonsai, lampu yang nggak terlalu terang.
+          Tempat yang bikin kamu lupa terburu-buru.
+        </p>
+
+        <div class="dk-hero__meta" aria-label="Informasi singkat">
+          <span class="dk-hero__meta-item">Buka Tiap Hari</span>
+          <span class="dk-hero__meta-sep" aria-hidden="true"></span>
+          <span class="dk-hero__meta-item">17.30 – 00.00</span>
+          <span class="dk-hero__meta-sep" aria-hidden="true"></span>
+          <span class="dk-hero__meta-item">Ketanggungan, Brebes</span>
+        </div>
+      </div>
+
+      <div class="dk-hero__scroll" aria-hidden="true">
+        <div class="dk-hero__scroll-line"></div>
+        <span class="dk-hero__scroll-label">Scroll</span>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════
+         2. ABOUT DIKOPI
+    ══════════════════════════════════════════════ -->
+    <section class="dk-section dk-about" id="tentang" aria-labelledby="about-title">
+      <div class="container">
+        <div class="dk-about__inner">
+
+          <div class="dk-about__img-wrap" data-reveal="left">
+            <!-- SWAP: Foto suasana Dikopi dari luar atau pojok terbaik -->
+            <figure class="dk-img" aria-label="Foto suasana Dikopi">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto: suasana depan atau sudut terbaik ruangan ]</figcaption>
+            </figure>
+          </div>
+
+          <div class="dk-about__content" data-reveal>
+            <p class="dk-eyebrow">Tentang Kami</p>
+
+            <h2 class="dk-about__title" id="about-title">
+              Bukan kafe.<br><em>Tempat singgah.</em>
+            </h2>
+
+            <p class="dk-about__text">
+              Dikopi lahir dari dua hal sederhana: kopi Brebes yang terlalu bagus
+              untuk diabaikan, dan kebutuhan akan tempat yang bikin betah di
+              Ketanggungan. Bukan franchise, bukan jaringan. Satu tempat, satu
+              tim, satu niat.
+            </p>
+
+            <p class="dk-about__text">
+              Ruangannya dibangun dengan tangan — bonsai yang dirawat,
+              lampu string yang dipasang satu per satu, kerikil yang dihampar
+              pelan-pelan. Tidak ada yang kebetulan di sini, tapi semuanya
+              terasa santai.
+            </p>
+
+            <p class="dk-about__text">
+              Didirikan oleh Pratani. Dijalankan tiap hari.
+            </p>
+
+            <div class="dk-about__badges">
+              <span class="dk-badge">Proudly Local</span>
+              <span class="dk-badge">Kopi Brebes Asli</span>
+              <span class="dk-badge">Bukan Franchise</span>
+              <span class="dk-badge">Ketanggungan, Brebes</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════
+         3. THE COFFEE — MENU
+    ══════════════════════════════════════════════ -->
+    <section class="dk-section dk-menu" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+
+        <div class="dk-menu__header" data-reveal>
+          <p class="dk-eyebrow dk-eyebrow--center">Yang Kami Seduh</p>
+          <h2 class="dk-menu__title" id="menu-title">
+            Minumannya sederhana.<br><em>Pilihannya jujur.</em>
+          </h2>
+          <p class="dk-menu__sub">
+            Kami brew biji kopi asal Brebes — Robusta Sindangheula dan Arabica
+            Sirampog. Minimalis, tidak drama.
+          </p>
+        </div>
+
+        <!-- Hero Drinks -->
+        <div class="dk-drinks" data-reveal-stagger>
+
+          <article class="dk-drink">
+            <!-- SWAP: Foto Kopi Susu -->
+            <figure class="dk-img dk-drink__img" aria-label="Foto Kopi Susu Dikopi">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M17 8h1a4 4 0 0 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><line x1="6" y1="2" x2="6" y2="4"/><line x1="10" y1="2" x2="10" y2="4"/><line x1="14" y1="2" x2="14" y2="4"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto: kopi susu ]</figcaption>
+            </figure>
+            <h3 class="dk-drink__name">Kopi Susu</h3>
+            <p class="dk-drink__desc">
+              Signature favorit. Robusta Sindangheula, susu segar, sedikit gula.
+              Nggak manis-manis amat, nggak pahit-pahit amat.
+            </p>
+            <span class="dk-drink__note">Robusta Sindangheula</span>
+          </article>
+
+          <article class="dk-drink">
+            <!-- SWAP: Foto Kopi Gula Aren -->
+            <figure class="dk-img dk-drink__img" aria-label="Foto Kopi Gula Aren">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M17 8h1a4 4 0 0 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><line x1="6" y1="2" x2="6" y2="4"/><line x1="10" y1="2" x2="10" y2="4"/><line x1="14" y1="2" x2="14" y2="4"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto: kopi gula aren ]</figcaption>
+            </figure>
+            <h3 class="dk-drink__name">Kopi Gula Aren</h3>
+            <p class="dk-drink__desc">
+              Aren lokal ketemu espresso. Manis yang nggak bikin eneg —
+              lebih dalam dari yang kamu kira.
+            </p>
+            <span class="dk-drink__note">Robusta Sindangheula · Aren Lokal</span>
+          </article>
+
+          <article class="dk-drink">
+            <!-- SWAP: Foto Americano -->
+            <figure class="dk-img dk-drink__img" aria-label="Foto Americano">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M17 8h1a4 4 0 0 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><line x1="6" y1="2" x2="6" y2="4"/><line x1="10" y1="2" x2="10" y2="4"/><line x1="14" y1="2" x2="14" y2="4"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto: americano panas / es ]</figcaption>
+            </figure>
+            <h3 class="dk-drink__name">Americano</h3>
+            <p class="dk-drink__desc">
+              Robusta Sindangheula, panas atau es. Polos, tapi ngena.
+              Untuk yang nggak mau ribet.
+            </p>
+            <span class="dk-drink__note">Robusta Sindangheula · Hot / Iced</span>
+          </article>
+
+          <article class="dk-drink">
+            <!-- SWAP: Foto French Press -->
+            <figure class="dk-img dk-drink__img" aria-label="Foto French Press">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M17 8h1a4 4 0 0 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><line x1="6" y1="2" x2="6" y2="4"/><line x1="10" y1="2" x2="10" y2="4"/><line x1="14" y1="2" x2="14" y2="4"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto: french press ]</figcaption>
+            </figure>
+            <h3 class="dk-drink__name">French Press</h3>
+            <p class="dk-drink__desc">
+              Cara lama yang masih bagus. Biji pilihan, seduh pelan.
+              Cocok kalau kamu nggak buru-buru — dan di sini, kamu memang nggak perlu.
+            </p>
+            <span class="dk-drink__note">Arabica Sirampog · Manual Brew</span>
+          </article>
+
+        </div>
+
+        <!-- RTD Bottles -->
+        <div class="dk-rtd" data-reveal>
+          <div class="dk-rtd__info">
+            <p class="dk-rtd__label">Bottled — Bawa Pulang</p>
+            <h3 class="dk-rtd__title">Black Breeze &amp; Arenso</h3>
+            <p class="dk-rtd__desc">
+              Dua bottled coffee buatan sendiri. Black Breeze Americano untuk
+              yang suka pahit bersih, Arenso Aren Espresso untuk yang suka ada
+              manisnya. Bawa pulang suasananya.
+            </p>
+          </div>
+          <div class="dk-rtd__price-wrap">
+            <p class="dk-rtd__price">Rp10.000</p>
+            <p class="dk-rtd__price-note">per botol</p>
+          </div>
+        </div>
+
+        <p class="dk-menu__also" data-reveal>
+          Ada juga matcha, herbal, dan jus — tanya langsung ke barista kami.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════
+         4. THE SPACE — ATMOSPHERE
+    ══════════════════════════════════════════════ -->
+    <section class="dk-section dk-space" id="ruang" aria-labelledby="space-title">
+      <div class="container">
+
+        <div class="dk-space__header" data-reveal>
+          <p class="dk-eyebrow">Ruangannya</p>
+          <h2 class="dk-space__title" id="space-title">
+            Terasa berbeda<br><em>setelah matahari tenggelam.</em>
+          </h2>
+          <p class="dk-space__text">
+            Sekitar jam tujuh malam, lampu string mulai terasa hangat. Bonsai-bonsai
+            kecil berdiri tenang di pojok-pojok. Lantai kerikil mengeluarkan suara
+            pelan tiap langkah. Lesehan di sudut paling favorit sudah ditempati.
+            Tidak ada yang terburu-buru pergi dari sini.
+          </p>
+        </div>
+
+        <!-- Gallery grid — SWAP semua foto -->
+        <div class="dk-gallery" data-reveal>
+
+          <div class="dk-gallery__item dk-gallery__item--tall">
+            <!-- SWAP: Foto vertical — bonsai garden atau pojok lesehan -->
+            <figure class="dk-img" aria-label="Foto bonsai garden Dikopi">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto vertikal: bonsai garden ]</figcaption>
+            </figure>
+          </div>
+
+          <div class="dk-gallery__item dk-gallery__item--wide">
+            <!-- SWAP: Foto landscape — suasana malam string lights -->
+            <figure class="dk-img" aria-label="Foto suasana malam string lights Dikopi">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto landscape: lampu string lights malam hari ]</figcaption>
+            </figure>
+          </div>
+
+          <div class="dk-gallery__item">
+            <!-- SWAP: Foto lesehan -->
+            <figure class="dk-img" aria-label="Foto area lesehan Dikopi">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto: area lesehan ]</figcaption>
+            </figure>
+          </div>
+
+          <div class="dk-gallery__item">
+            <!-- SWAP: Foto detail — kerikil / bamboo / tanaman -->
+            <figure class="dk-img" aria-label="Foto detail material bambu dan kerikil">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto detail: kerikil, bambu, atau tanaman ]</figcaption>
+            </figure>
+          </div>
+
+          <div class="dk-gallery__item">
+            <!-- SWAP: Foto barista / behind the bar -->
+            <figure class="dk-img" aria-label="Foto barista sedang menyeduh">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto: barista sedang menyeduh ]</figcaption>
+            </figure>
+          </div>
+
+        </div>
+
+        <!-- Vibe pills -->
+        <div class="dk-space__vibes" data-reveal-stagger aria-label="Karakteristik ruangan">
+          <div class="dk-vibe">
+            <div class="dk-vibe__icon" aria-hidden="true">🌿</div>
+            <p class="dk-vibe__label">Bonsai Garden</p>
+            <p class="dk-vibe__sub">Tanaman asli, dirawat tiap hari</p>
+          </div>
+          <div class="dk-vibe">
+            <div class="dk-vibe__icon" aria-hidden="true">✨</div>
+            <p class="dk-vibe__label">String Lights</p>
+            <p class="dk-vibe__sub">Cahaya hangat saat malam tiba</p>
+          </div>
+          <div class="dk-vibe">
+            <div class="dk-vibe__icon" aria-hidden="true">🪵</div>
+            <p class="dk-vibe__label">Lesehan</p>
+            <p class="dk-vibe__sub">Duduk santai, nggak ada tekanan pergi</p>
+          </div>
+          <div class="dk-vibe">
+            <div class="dk-vibe__icon" aria-hidden="true">🎋</div>
+            <p class="dk-vibe__label">Nuansa Alam</p>
+            <p class="dk-vibe__sub">Bambu, kerikil, material organik</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════
+         5. KOPI BREBES — ORIGIN STORY
+    ══════════════════════════════════════════════ -->
+    <section class="dk-section dk-origin" id="asal-kopi" aria-labelledby="origin-title">
+      <div class="container">
+        <div class="dk-origin__inner">
+
+          <div class="dk-origin__content" data-reveal>
+            <p class="dk-eyebrow">Asal Biji</p>
+
+            <h2 class="dk-origin__title" id="origin-title">
+              Kopi dari Brebes.<br><em>Belum banyak<br>yang tahu.</em>
+            </h2>
+
+            <p class="dk-origin__text">
+              Brebes punya dua daerah penghasil kopi yang seharusnya lebih banyak
+              dikenal. Kami tidak menemukannya di toko besar atau kedai franchise —
+              kami menemukannya langsung di Sindangheula dan Sirampog, dan kami
+              memutuskan untuk menyeduhnya.
+            </p>
+
+            <p class="dk-origin__text">
+              Ini bukan soal gaya. Kami brew kopi lokal karena memang bagus,
+              dan karena tempat ini lahir dari tanah yang sama.
+            </p>
+
+            <blockquote class="dk-origin__quote">
+              "Kopi ini bukan dari tempat yang terkenal.
+              Tapi mungkin seharusnya."
+            </blockquote>
+          </div>
+
+          <div data-reveal="right">
+            <div class="dk-beans">
+
+              <article class="dk-bean">
+                <span class="dk-bean__type">Robusta</span>
+                <h3 class="dk-bean__name">Sindangheula</h3>
+                <p class="dk-bean__origin">Banjarharjo, Brebes — Jawa Tengah</p>
+                <p class="dk-bean__notes">Karakter bold, earthy, full body. Kopi petani lokal yang hasilnya lebih baik dari reputasinya.</p>
+              </article>
+
+              <article class="dk-bean">
+                <span class="dk-bean__type">Arabica</span>
+                <h3 class="dk-bean__name">Sirampog</h3>
+                <p class="dk-bean__origin">Brebes Selatan — Jawa Tengah</p>
+                <p class="dk-bean__notes">Lebih bersih, lebih lembut. Ada keasaman ringan yang bikin penasaran.</p>
+              </article>
+
+            </div>
+
+            <!-- SWAP: Foto biji kopi atau proses seduh -->
+            <figure class="dk-img" style="aspect-ratio: 16/9; margin-top: 1px;" aria-label="Foto biji kopi Brebes atau proses penyeduhan">
+              <div class="dk-img__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+              <figcaption class="dk-img__label">[ foto: biji kopi Brebes atau proses seduh ]</figcaption>
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════
+         6. FIND US
+    ══════════════════════════════════════════════ -->
+    <section class="dk-section dk-find" id="temukan-kami" aria-labelledby="find-title">
+      <div class="container">
+        <div class="dk-find__inner">
+
+          <div data-reveal>
+            <h2 class="dk-find__title" id="find-title">
+              Temukan<br><em>kami di sini.</em>
+            </h2>
+
+            <div class="dk-find__info">
+
+              <div class="dk-info-row">
+                <span class="dk-info-row__label">Alamat</span>
+                <p class="dk-info-row__value">
+                  Jalan Pesantren, depan SMP 1 Ketanggungan<br>
+                  Brebes, Jawa Tengah
+                </p>
+              </div>
+
+              <div class="dk-info-row">
+                <span class="dk-info-row__label">Jam Buka</span>
+                <p class="dk-info-row__value">
+                  Buka tiap hari<br>
+                  17.30 – 00.00 WIB
+                </p>
+              </div>
+
+              <div class="dk-info-row">
+                <span class="dk-info-row__label">Hubungi Kami</span>
+                <div class="dk-find__links">
+                  <a href="https://wa.me/6285172107815" class="dk-social-link" target="_blank" rel="noopener" aria-label="Chat WhatsApp Dikopi">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+                    WhatsApp — 0851-7210-7815
+                  </a>
+                  <a href="https://www.instagram.com/by.dikopi" class="dk-social-link" target="_blank" rel="noopener" aria-label="Instagram Dikopi @by.dikopi">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    Instagram — @by.dikopi
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="dk-find__map" data-reveal="right">
+            <!-- Google Maps embed — SMP Negeri 1 Ketanggungan Brebes -->
+            <iframe
+              title="Lokasi Dikopi — depan SMP 1 Ketanggungan, Brebes"
+              src="https://maps.google.com/maps?q=SMP+Negeri+1+Ketanggungan+Brebes+Jawa+Tengah&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Peta lokasi Dikopi di Ketanggungan Brebes">
+            </iframe>
+            <div class="dk-find__map-overlay" aria-hidden="true"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════
+         7. DIKOPI FOOTER
+    ══════════════════════════════════════════════ -->
+    <footer class="dk-footer" role="contentinfo">
+      <div class="container">
+        <div class="dk-footer__inner">
+
+          <p class="dk-footer__wordmark" aria-hidden="true">Dikopi</p>
+
+          <p class="dk-footer__tagline">Di sini, kopi cuma alasannya.</p>
+
+          <div class="dk-footer__divider" aria-hidden="true"></div>
+
+          <nav class="dk-footer__links" aria-label="Tautan Dikopi">
+            <a href="https://www.instagram.com/by.dikopi" class="dk-footer__link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              @by.dikopi
+            </a>
+            <a href="https://wa.me/6285172107815" class="dk-footer__link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+              WhatsApp
+            </a>
+            <a href="#hero" class="dk-footer__link">
+              Ke Atas
+            </a>
+          </nav>
+
+          <p class="dk-footer__location">Dikopi — Ketanggungan, Brebes · Buka tiap hari 17.30–00.00</p>
+
+          <p class="dk-footer__pratani">
+            Bagian dari PT Pratani Kreatif Group · pratani.co
+          </p>
+
+        </div>
+      </div>
+    </footer>
+
   </main>
 
+  <script src="../assets/js/main.js"></script>
 </body>
 </html>
