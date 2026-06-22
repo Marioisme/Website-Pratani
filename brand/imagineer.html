@@ -1,25 +1,23 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Imagineer — Brand kreatif dari Pratani Creative." />
-  <meta property="og:title" content="Imagineer" />
+  <meta name="description" content="Imagineer — Creative partner untuk komunitas kampus. Desain grafis, branding, event visual kit, konten sosmed. Bagian dari PT Pratani Kreatif Group." />
+  <meta property="og:title" content="Imagineer — Bikin Organisasimu Keliatan Serius." />
+  <meta property="og:description" content="Creative agency untuk BEM, UKM, Himpunan, dan UMKM lokal. Desain yang punya tujuan — bukan sekadar cantik." />
   <meta property="og:type" content="website" />
-  <title>Imagineer — Pratani Creative</title>
+  <title>Imagineer — Creative Agency · Pratani Creative</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/pages/imagineer.css" />
-
 </head>
 
-<body>
-
-  <div class="bg-glow-layer" aria-hidden="true"></div>
+<body class="imagineer">
 
   <!-- TOPBAR -->
   <div class="topbar" role="banner">
@@ -46,14 +44,13 @@
   <!-- NAVBAR -->
   <nav class="navbar" aria-label="Navigasi utama">
     <div class="navbar__inner">
-      <a href="/" class="navbar__logo" aria-label="Pratani Creative — Beranda">
+      <a href="../index.html" class="navbar__logo" aria-label="Pratani Creative — Beranda">
         <div class="navbar__logo-mark" aria-hidden="true">P</div>
         <div class="navbar__logo-text">
           <span class="navbar__logo-name">Pratani</span>
           <span class="navbar__logo-sub">Creative</span>
         </div>
       </a>
-
       <ul class="navbar__nav" role="list">
         <li><a href="../index.html" class="navbar__link">Home</a></li>
         <li><a href="../tentang.html" class="navbar__link">Tentang</a></li>
@@ -64,16 +61,13 @@
           </a>
           <div class="navbar__dropdown-menu" role="menu">
             <a href="kolektiva.html" class="navbar__dropdown-item" role="menuitem">
-              <span class="navbar__dropdown-dot" style="background: var(--kolektiva);" aria-hidden="true"></span>
-              Kolektiva
+              <span class="navbar__dropdown-dot" style="background:var(--kolektiva);" aria-hidden="true"></span>Kolektiva
             </a>
             <a href="dikopi.html" class="navbar__dropdown-item" role="menuitem">
-              <span class="navbar__dropdown-dot" style="background: var(--dikopi);" aria-hidden="true"></span>
-              Dikopi
+              <span class="navbar__dropdown-dot" style="background:var(--dikopi);" aria-hidden="true"></span>Dikopi
             </a>
             <a href="imagineer.html" class="navbar__dropdown-item active" role="menuitem">
-              <span class="navbar__dropdown-dot" style="background: var(--imagineer);" aria-hidden="true"></span>
-              Imagineer
+              <span class="navbar__dropdown-dot" style="background:#ff5e7a;" aria-hidden="true"></span>Imagineer
             </a>
           </div>
         </li>
@@ -81,12 +75,10 @@
         <li><a href="../artikel.html" class="navbar__link">Artikel</a></li>
         <li><a href="../link-penting.html" class="navbar__link">Link</a></li>
       </ul>
-
-      <a href="https://wa.me/6285172107815" class="btn btn-primary btn-sm navbar__cta" target="_blank" rel="noopener">
-        Minta Penawaran
+      <a href="https://wa.me/6285172107815?text=Halo+Imagineer%2C+aku+mau+konsultasi+desain" class="btn btn-sm navbar__cta im-navbar-cta" target="_blank" rel="noopener">
+        Konsultasi Gratis
         <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
-
       <button class="navbar__hamburger" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-menu">
         <span></span><span></span><span></span>
       </button>
@@ -101,16 +93,522 @@
     <a href="../portfolio.html" class="navbar__mobile-link">Portfolio</a>
     <a href="../artikel.html" class="navbar__mobile-link">Artikel</a>
     <a href="../link-penting.html" class="navbar__mobile-link">Link Penting</a>
-    <div style="margin-top: 2rem;">
-      <a href="https://wa.me/6285172107815" class="btn btn-primary btn-lg" style="width:100%; justify-content:center;" target="_blank" rel="noopener">
-        Minta Penawaran →
+    <div style="margin-top:2rem;">
+      <a href="https://wa.me/6285172107815?text=Halo+Imagineer%2C+aku+mau+konsultasi+desain" class="im-btn im-btn--primary" style="width:100%;justify-content:center;" target="_blank" rel="noopener">
+        Konsultasi Gratis →
       </a>
     </div>
   </nav>
 
   <main id="main-content">
-    <!-- Konten halaman Imagineer akan ditambahkan di sini -->
+
+    <!-- ══════════════════════════════════
+         1. HERO
+    ══════════════════════════════════ -->
+    <section class="im-hero" id="hero" aria-labelledby="im-hero-title">
+      <div class="im-hero__orb im-hero__orb--1" aria-hidden="true"></div>
+      <div class="im-hero__orb im-hero__orb--2" aria-hidden="true"></div>
+      <div class="im-hero__grid" aria-hidden="true"></div>
+
+      <div class="im-hero__inner">
+        <div class="im-hero__content hero-animate">
+
+          <div class="im-label">
+            <span class="im-label__dot" aria-hidden="true"></span>
+            Creative Agency — Pratani Group
+          </div>
+
+          <h1 class="im-hero__title" id="im-hero-title">
+            Bikin Organisasimu<br>
+            Keliatan <em>Serius.</em>
+          </h1>
+
+          <p class="im-hero__sub">
+            Imagineer adalah creative partner untuk komunitas kampus —
+            dari desain identitas sampai konten event, kami yang handle.
+          </p>
+
+          <div class="im-hero__actions">
+            <a href="https://wa.me/6285172107815?text=Halo+Imagineer%2C+aku+mau+konsultasi+desain" class="im-btn im-btn--primary" target="_blank" rel="noopener">
+              Mulai Konsultasi
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="#layanan" class="im-btn im-btn--ghost">
+              Lihat Layanan
+            </a>
+          </div>
+
+          <div class="im-hero__clients" aria-label="Klien yang pernah kami bantu">
+            <span class="im-hero__clients-label">Cocok untuk</span>
+            <div class="im-hero__clients-tags">
+              <span>BEM &amp; HIMA</span>
+              <span>UKM Kampus</span>
+              <span>Panitia Event</span>
+              <span>UMKM Lokal</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="im-hero__visual" aria-hidden="true">
+          <div class="im-hero__card im-hero__card--1">
+            <div class="im-hero__card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <div class="im-hero__card-text">
+              <span>Visual Identity</span>
+              <span>Logo · Brand Guide</span>
+            </div>
+          </div>
+          <div class="im-hero__card im-hero__card--2">
+            <div class="im-hero__card-icon im-hero__card-icon--accent">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            </div>
+            <div class="im-hero__card-text">
+              <span>Event Kit</span>
+              <span>Backdrop · Banner</span>
+            </div>
+          </div>
+          <div class="im-hero__card im-hero__card--3">
+            <div class="im-hero__card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18" stroke-linecap="round" stroke-width="2"/></svg>
+            </div>
+            <div class="im-hero__card-text">
+              <span>Konten Sosmed</span>
+              <span>Feed · Story</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="im-hero__scroll" aria-hidden="true">
+        <div class="im-hero__scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         2. SERVICES
+    ══════════════════════════════════ -->
+    <section class="im-section im-services" id="layanan" aria-labelledby="services-title">
+      <div class="im-container">
+
+        <div class="im-section__head" data-reveal>
+          <span class="im-eyebrow">Yang Kami Kerjain</span>
+          <h2 class="im-heading" id="services-title">
+            Enam layanan,<br><em>satu workflow.</em>
+          </h2>
+          <p class="im-subtext">
+            Dari kebutuhan harian sampai proyek besar — semua dikerjakan
+            dengan sistem yang sama: brief jelas, output konsisten, revisi sampai puas.
+          </p>
+        </div>
+
+        <div class="im-services-grid" data-reveal-stagger>
+
+          <article class="im-service-card">
+            <div class="im-service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <h3 class="im-service-card__title">Desain Grafis Harian</h3>
+            <p class="im-service-card__desc">Poster, banner, feed IG, flyer, template PPT, menu digital — desain cepat untuk kebutuhan sehari-hari lo.</p>
+            <div class="im-service-card__tags">
+              <span>Poster</span><span>Flyer</span><span>Feed IG</span>
+            </div>
+          </article>
+
+          <article class="im-service-card im-service-card--featured">
+            <div class="im-service-card__icon im-service-card__icon--accent">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="im-service-card__title">Branding &amp; Visual Identity</h3>
+            <p class="im-service-card__desc">Logo system, brand guideline, social media kit — fondasi visual yang bikin organisasi lo terlihat konsisten dan profesional.</p>
+            <div class="im-service-card__tags">
+              <span>Logo</span><span>Brand Guide</span><span>Sosmed Kit</span>
+            </div>
+          </article>
+
+          <article class="im-service-card">
+            <div class="im-service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            </div>
+            <h3 class="im-service-card__title">Event Visual Kit</h3>
+            <p class="im-service-card__desc">Desain lengkap untuk kepanitiaan: backdrop, x-banner, name tag, sertifikat, program book, rundown visual.</p>
+            <div class="im-service-card__tags">
+              <span>Backdrop</span><span>Sertifikat</span><span>Name Tag</span>
+            </div>
+          </article>
+
+          <article class="im-service-card">
+            <div class="im-service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18" stroke-linecap="round" stroke-width="2"/></svg>
+            </div>
+            <h3 class="im-service-card__title">Konten Social Media</h3>
+            <p class="im-service-card__desc">Template konten + caption strategy. Supaya feed IG organisasi lo keliatan hidup dan nggak boring samanya terus.</p>
+            <div class="im-service-card__tags">
+              <span>Template</span><span>Feed</span><span>Story</span>
+            </div>
+          </article>
+
+          <article class="im-service-card">
+            <div class="im-service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3 class="im-service-card__title">Proposal &amp; LPJ Design</h3>
+            <p class="im-service-card__desc">Bikin dokumen organisasi lo keliatan pro. Proposal, LPJ, deck sponsor — layout yang rapi bikin konten lo dianggap serius.</p>
+            <div class="im-service-card__tags">
+              <span>Proposal</span><span>LPJ</span><span>Deck</span>
+            </div>
+          </article>
+
+          <article class="im-service-card">
+            <div class="im-service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            </div>
+            <h3 class="im-service-card__title">Foto &amp; Video</h3>
+            <p class="im-service-card__desc">Dokumentasi event, foto produk, dan reels pendek untuk konten sosmed. Visual yang bisa langsung diposting.</p>
+            <div class="im-service-card__tags">
+              <span>Dokumentasi</span><span>Produk</span><span>Reels</span>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="im-services-cta" data-reveal>
+          <p>Butuh sesuatu yang tidak ada di list? <a href="https://wa.me/6285172107815?text=Halo+Imagineer%2C+aku+mau+konsultasi+desain" target="_blank" rel="noopener">Tanya langsung →</a></p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         3. WHY IMAGINEER
+    ══════════════════════════════════ -->
+    <section class="im-section im-why" id="kenapa" aria-labelledby="why-title">
+      <div class="im-container">
+
+        <div class="im-section__head im-section__head--center" data-reveal>
+          <span class="im-eyebrow">Kenapa Imagineer</span>
+          <h2 class="im-heading" id="why-title">
+            Bukan sekadar<br><em>keren-kerenan.</em>
+          </h2>
+        </div>
+
+        <div class="im-why-grid" data-reveal-stagger>
+
+          <div class="im-why-card">
+            <div class="im-why-card__num">01</div>
+            <h3 class="im-why-card__title">Paham Culture Kampus</h3>
+            <p class="im-why-card__desc">
+              Kami tau drama deadline proposal, tekanan LPJ, revisi mendadak dari ketua,
+              dan sponsor yang minta brief dalam 24 jam. Kita di frekuensi yang sama.
+            </p>
+          </div>
+
+          <div class="im-why-card im-why-card--accent">
+            <div class="im-why-card__num">02</div>
+            <h3 class="im-why-card__title">Sistem yang Profesional</h3>
+            <p class="im-why-card__desc">
+              Bukan freelancer dadakan yang ngilang pas mau revisi. Kami punya
+              workflow terstruktur, brief form, milestone jelas, dan dokumen lengkap
+              untuk setiap proyek.
+            </p>
+          </div>
+
+          <div class="im-why-card">
+            <div class="im-why-card__num">03</div>
+            <h3 class="im-why-card__title">Output yang Bisa Dibanggain</h3>
+            <p class="im-why-card__desc">
+              Desain yang bikin sponsor impressed, anggota proud, dan panitia tenang.
+              Bukan template Canva edit-edit — tapi karya yang dibikin khusus buat lo.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         4. PORTFOLIO
+    ══════════════════════════════════ -->
+    <section class="im-section im-portfolio" id="karya" aria-labelledby="portfolio-title">
+      <div class="im-container">
+
+        <div class="im-section__head" data-reveal>
+          <span class="im-eyebrow">Karya Terbaru</span>
+          <h2 class="im-heading" id="portfolio-title">
+            Apa yang sudah<br><em>kami bikin.</em>
+          </h2>
+          <p class="im-subtext">
+            Portfolio lengkap segera hadir. Follow
+            <a href="https://www.instagram.com/imagineer_creative" target="_blank" rel="noopener" class="im-link">@imagineer_creative</a>
+            untuk update terbaru.
+          </p>
+        </div>
+
+        <div class="im-portfolio-grid" data-reveal-stagger>
+
+          <div class="im-porto-item im-porto-item--wide">
+            <div class="im-porto-item__visual im-porto-item__visual--1">
+              <div class="im-porto-item__inner">
+                <span class="im-porto-item__category">Social Media Kit</span>
+                <span class="im-porto-item__coming">Karya segera hadir</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="im-porto-item">
+            <div class="im-porto-item__visual im-porto-item__visual--2">
+              <div class="im-porto-item__inner">
+                <span class="im-porto-item__category">Event Identity</span>
+                <span class="im-porto-item__coming">Karya segera hadir</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="im-porto-item">
+            <div class="im-porto-item__visual im-porto-item__visual--3">
+              <div class="im-porto-item__inner">
+                <span class="im-porto-item__category">Branding</span>
+                <span class="im-porto-item__coming">Karya segera hadir</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="im-porto-item">
+            <div class="im-porto-item__visual im-porto-item__visual--4">
+              <div class="im-porto-item__inner">
+                <span class="im-porto-item__category">Proposal Design</span>
+                <span class="im-porto-item__coming">Karya segera hadir</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="im-porto-item im-porto-item--wide">
+            <div class="im-porto-item__visual im-porto-item__visual--5">
+              <div class="im-porto-item__inner">
+                <span class="im-porto-item__category">Event Visual Kit</span>
+                <span class="im-porto-item__coming">Karya segera hadir</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="im-portfolio-cta" data-reveal>
+          <a href="https://www.instagram.com/imagineer_creative" class="im-btn im-btn--outline" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            Lihat di Instagram
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         5. PRICING
+    ══════════════════════════════════ -->
+    <section class="im-section im-pricing" id="harga" aria-labelledby="pricing-title">
+      <div class="im-container">
+
+        <div class="im-section__head im-section__head--center" data-reveal>
+          <span class="im-eyebrow">Harga</span>
+          <h2 class="im-heading" id="pricing-title">
+            Berapa harganya?
+          </h2>
+          <p class="im-subtext">
+            Harga fleksibel sesuai scope. Ini estimasi awal — ceritain kebutuhan lo
+            dan kami kasih angka yang lebih akurat.
+          </p>
+        </div>
+
+        <div class="im-pricing-grid" data-reveal-stagger>
+
+          <div class="im-price-card">
+            <div class="im-price-card__head">
+              <span class="im-price-card__label">Paket Harian</span>
+              <div class="im-price-card__range">Rp 100k <span>– 500k</span></div>
+              <p class="im-price-card__note">per item / per desain</p>
+            </div>
+            <ul class="im-price-card__list" role="list">
+              <li>Poster &amp; flyer single</li>
+              <li>Feed IG / story template</li>
+              <li>Banner digital</li>
+              <li>Revisi 2x</li>
+              <li>File siap pakai (JPG/PNG)</li>
+            </ul>
+            <a href="https://wa.me/6285172107815?text=Halo+Imagineer%2C+aku+mau+tanya+Paket+Harian" class="im-btn im-btn--ghost-sm" target="_blank" rel="noopener">
+              Tanya Dulu →
+            </a>
+          </div>
+
+          <div class="im-price-card im-price-card--featured">
+            <div class="im-price-card__badge">Paling Diminati</div>
+            <div class="im-price-card__head">
+              <span class="im-price-card__label">Paket Event</span>
+              <div class="im-price-card__range">mulai <span>Rp 750k</span></div>
+              <p class="im-price-card__note">untuk satu kepanitiaan / event</p>
+            </div>
+            <ul class="im-price-card__list" role="list">
+              <li>Backdrop + x-banner + name tag</li>
+              <li>Sertifikat &amp; program book</li>
+              <li>Feed &amp; story event</li>
+              <li>Revisi bebas</li>
+              <li>File print-ready + digital</li>
+            </ul>
+            <a href="https://wa.me/6285172107815?text=Halo+Imagineer%2C+aku+mau+tanya+Paket+Event" class="im-btn im-btn--primary" target="_blank" rel="noopener">
+              Tanya Dulu →
+            </a>
+          </div>
+
+          <div class="im-price-card">
+            <div class="im-price-card__head">
+              <span class="im-price-card__label">Paket Branding</span>
+              <div class="im-price-card__range">mulai <span>Rp 3jt</span></div>
+              <p class="im-price-card__note">untuk organisasi / UMKM</p>
+            </div>
+            <ul class="im-price-card__list" role="list">
+              <li>Logo system (primary + variasi)</li>
+              <li>Brand guideline dokumen</li>
+              <li>Social media kit (12 template)</li>
+              <li>Revisi bebas sampai final</li>
+              <li>File master (AI/CDR/PDF)</li>
+            </ul>
+            <a href="https://wa.me/6285172107815?text=Halo+Imagineer%2C+aku+mau+tanya+Paket+Branding" class="im-btn im-btn--ghost-sm" target="_blank" rel="noopener">
+              Tanya Dulu →
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         6. TESTIMONIALS
+    ══════════════════════════════════ -->
+    <section class="im-section im-testimonials" aria-labelledby="testi-title">
+      <div class="im-container">
+
+        <div class="im-section__head im-section__head--center" data-reveal>
+          <span class="im-eyebrow">Kata Mereka</span>
+          <h2 class="im-heading" id="testi-title">
+            Yang pernah<br><em>kerja sama kami.</em>
+          </h2>
+        </div>
+
+        <div class="im-testi-grid" data-reveal-stagger>
+
+          <blockquote class="im-testi-card">
+            <p class="im-testi-card__quote">
+              "Akhirnya nemu vendor yang ngerti cara kerja kepanitiaan. Briefnya mudah,
+              outputnya langsung bisa dipake, nggak perlu revisi panjang-panjang."
+            </p>
+            <footer class="im-testi-card__author">
+              <div class="im-testi-card__avatar" aria-hidden="true">K</div>
+              <div>
+                <cite class="im-testi-card__name">Ketua BEM Fakultas</cite>
+                <span class="im-testi-card__role">Universitas di Jawa Tengah</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="im-testi-card im-testi-card--accent">
+            <p class="im-testi-card__quote">
+              "Visual event kita tahun ini jauh lebih bagus dari sebelumnya.
+              Sponsor juga notice dan langsung tanya siapa yang desain. Worth it banget."
+            </p>
+            <footer class="im-testi-card__author">
+              <div class="im-testi-card__avatar" aria-hidden="true">P</div>
+              <div>
+                <cite class="im-testi-card__name">Panitia Dies Natalis</cite>
+                <span class="im-testi-card__role">Himpunan Mahasiswa Teknik</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="im-testi-card">
+            <p class="im-testi-card__quote">
+              "Branding UMKM saya sekarang keliatan profesional. Banyak pelanggan yang
+              tanya 'logonya siapa yang bikin?' — itu yang bikin saya puas."
+            </p>
+            <footer class="im-testi-card__author">
+              <div class="im-testi-card__avatar" aria-hidden="true">R</div>
+              <div>
+                <cite class="im-testi-card__name">Owner UMKM Kuliner</cite>
+                <span class="im-testi-card__role">Brebes, Jawa Tengah</span>
+              </div>
+            </footer>
+          </blockquote>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         7. CTA BLOCK
+    ══════════════════════════════════ -->
+    <section class="im-cta-block" aria-labelledby="cta-title">
+      <div class="im-container">
+        <div class="im-cta-block__inner" data-reveal>
+          <div class="im-cta-block__content">
+            <h2 class="im-cta-block__title" id="cta-title">
+              Siap Bikin Brand Lo<br>Keliatan <em>Profesional?</em>
+            </h2>
+            <p class="im-cta-block__sub">
+              Nggak perlu brief yang sempurna. Ceritain aja kondisinya —
+              kebutuhan, deadline, budget. Kami bantu dari nol.
+            </p>
+          </div>
+          <div class="im-cta-block__action">
+            <a href="https://wa.me/6285172107815?text=Halo+Imagineer%2C+aku+mau+konsultasi+desain" class="im-cta-btn" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+              Mulai via WhatsApp
+            </a>
+            <span class="im-cta-block__note">Balas dalam 1×24 jam · Konsultasi gratis</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
+  <!-- ══════════════════════════════════
+       8. FOOTER
+  ══════════════════════════════════ -->
+  <footer class="im-footer" role="contentinfo">
+    <div class="im-container">
+      <div class="im-footer__inner">
+
+        <div class="im-footer__brand">
+          <p class="im-footer__wordmark">Imagineer</p>
+          <p class="im-footer__tagline">Part of PT Pratani Kreatif Group</p>
+        </div>
+
+        <nav class="im-footer__links" aria-label="Tautan Imagineer">
+          <a href="https://www.instagram.com/imagineer_creative" class="im-footer__link" target="_blank" rel="noopener" aria-label="Instagram @imagineer_creative">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            @imagineer_creative
+          </a>
+          <a href="https://wa.me/6285172107815?text=Halo+Imagineer%2C+aku+mau+konsultasi+desain" class="im-footer__link" target="_blank" rel="noopener" aria-label="WhatsApp Imagineer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.42 2 2 0 0 1 3.55 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+            WhatsApp
+          </a>
+          <a href="../index.html" class="im-footer__link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            Pratani Creative
+          </a>
+        </nav>
+
+        <p class="im-footer__copy">© 2025 Imagineer · PT Pratani Kreatif Group · AHU-053343.AH.01.30.Tahun 2025</p>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/pages/imagineer.js" defer></script>
 </body>
 </html>
