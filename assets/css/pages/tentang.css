@@ -108,7 +108,7 @@
 }
 
 /* ── Values ── */
-.values-section { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.values-section { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: clamp(5rem, 10vw, 8rem) 0; }
 .values-grid {
   display: grid; grid-template-columns: repeat(2, 1fr);
   gap: var(--space-5);
@@ -191,7 +191,7 @@
 }
 
 /* ── Brand Structure ── */
-.brands-section { background: var(--surface); border-top: 1px solid var(--border); }
+.brands-section { background: var(--surface); border-top: 1px solid var(--border); padding: clamp(5rem, 10vw, 8rem) 0; }
 .brands-row {
   display: grid; grid-template-columns: repeat(3, 1fr);
   gap: var(--space-5);
